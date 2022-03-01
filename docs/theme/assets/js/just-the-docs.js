@@ -27,8 +27,8 @@ function initNav() {
   jtd.addEvent(document, 'click', function(e){
       console.log('document click');
     var target = e.target;
-    while (target && !(target.classList && target.classList.contains('has_child').parentNode)) {
-      console.log(' In While Loop => '+target.parentNode);
+    while (target && !(target.classList && target.classList.contains('has_child').parentNode.contains('li'))) {
+      console.log(target.parentNode);
       target = target.parentNode;
     }
     if (target) {
