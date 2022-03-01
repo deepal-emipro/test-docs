@@ -11,6 +11,7 @@ li.has_child::before {
     margin-right: 1rem;
     margin-left: 1em;
     float: right;
+    cursor: pointer;
 }
 .nav-list li {list-style: none;}
 .ept-cust-mb-sb-header{display: none;}
