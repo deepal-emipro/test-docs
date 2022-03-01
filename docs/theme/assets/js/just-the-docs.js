@@ -29,7 +29,7 @@ function initNav() {
     var target = e.target;
     while (target && !(target.classList && target.classList.contains('has_child').parentNode)) {
       console.log(' In While Loop => '+target.parentNode);
-      //target = target.parentNode;
+      target = target.parentNode;
     }
     if (target) {
       e.preventDefault();
