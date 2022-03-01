@@ -14,6 +14,7 @@ li.has_child::before {
     cursor: pointer;
 }
 .nav-list li {list-style: none;}
+.has_child{display: none;}
 .ept-cust-mb-sb-header{display: none;}
 .ept-cust-dt-sb-header {display: block;}
 #main-header .ept-ug-mh-l,#main-header .ept-ug-mh-r{display: block;}
