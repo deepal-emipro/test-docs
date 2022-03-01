@@ -8,8 +8,9 @@ li.has_child::before {
     border-right: 0.1em solid black;
     border-top: 0.1em solid black;
     transform: rotate(135deg);
-    margin-right: 0.5em;
+    margin-right: 1rem;
     margin-left: 1em;
+    float: right;
 }
 .nav-list li {list-style: none;}
 .ept-cust-mb-sb-header{display: none;}
