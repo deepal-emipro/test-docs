@@ -28,8 +28,8 @@ function initNav() {
       console.log('document click');
     var target = e.target;
     while (target && !(target.classList && target.classList.contains('has_child').parentNode)) {
-      console.log(target.parentNode);
-      target = target.parentNode;
+      console.log(' In While Loop => '+target.parentNode);
+      //target = target.parentNode;
     }
     if (target) {
       e.preventDefault();
