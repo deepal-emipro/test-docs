@@ -24,16 +24,16 @@ jtd.onReady = function(ready) {
 // Show/hide mobile menu
 
 function initNav() {
-  jtd.addEvent(document, 'click', function(e){
-    var target = e.target;
-    while (target && !(target.classList && target.classList.contains('has_child').parentNode)) {
-      target = target.parentNode;
-    }
-    if (target) {
-      e.preventDefault();
-      target.parentNode.classList.toggle('active');
-    }
-  });
+  // jtd.addEvent(document, 'click', function(e){
+  //   var target = e.target;
+  //   while (target && !(target.classList && target.classList.contains('has_child').parentNode)) {
+  //     target = target.parentNode;
+  //   }
+  //   if (target) {
+  //     e.preventDefault();
+  //     target.parentNode.classList.toggle('active');
+  //   }
+  // });
 
   const siteNav = document.getElementById('site-nav');
   const mainHeader = document.getElementById('main-header');
