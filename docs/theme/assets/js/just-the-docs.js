@@ -27,11 +27,9 @@ function initNav() {
   jtd.addEvent(document, 'click', function(e){
     var target = e.target;
     while (target && !(target.classList && target.classList.contains('has_child').parentNode)) {
-      target = target.parentNode.querySelector('li');
-      console.log(target);
+      target = target.parentNode;
     }
     if (target) {
-      console.log('In if condition');
       e.preventDefault();
       target.parentNode.classList.toggle('active');
     }
