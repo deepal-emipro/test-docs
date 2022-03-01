@@ -25,6 +25,7 @@ jtd.onReady = function(ready) {
 
 function initNav() {
   jtd.addEvent(document, 'click', function(e){
+    console.log('document click');
     var target = e.target;
     while (target && !(target.classList && target.classList.contains('has_child'))) {
       console.log(target.parentNode);
