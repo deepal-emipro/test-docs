@@ -6,7 +6,7 @@ setTimeout(function(){
 
 setTimeout(function(){
 	$(document).ready(function() {
-		$(document).on('click','.has_child',function(){
+		$(document).on('click','.has_child :: before',function(){
 			$(this).find('ul').toggle(
 			  function() {
 			  	console.log('In If');
