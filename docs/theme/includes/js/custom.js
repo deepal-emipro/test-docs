@@ -8,7 +8,7 @@ setTimeout(function(){
 	$(document).ready(function() {
 		$(".has_child").each(function() {
 			$(this).addClass('nav-list-item');
-		    $(this).find('a').insertBefore('<a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a>');
+		    $(this).insertBefore('<a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a>');
 		});
 		// $(document).on('click','.has_child :: before',function(){
 		// 	$(this).find('ul').toggle(
