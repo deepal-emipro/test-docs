@@ -27,8 +27,8 @@ function initNav() {
   jtd.addEvent(document, 'click', function(e){
     var target = e.target;
     while (target && !(target.classList && target.classList.contains('has_child'))) {
-      target = target.parentNode;
       console.log(target);
+      target = target.parentNode;
     }
     if (target) {
       e.preventDefault();
