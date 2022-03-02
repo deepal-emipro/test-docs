@@ -6,7 +6,7 @@ setTimeout(function(){
 
 setTimeout(function(){
 	$(document).ready(function() {
-		$(document).on('has_child','click',function(){
+		$(document).on('click','.has_child',function(){
 			alert($(this).html());
 		});
 		if(temp_pr_version[5] == '' || temp_pr_version[5] == undefined)
