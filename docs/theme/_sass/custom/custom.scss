@@ -1,20 +1,5 @@
-li.has_child::before {
-    position: relative;
-    top: 0px;
-    content: "";
-    display: inline-block;
-    width: 7px;
-    height: 7px;
-    border-right: 0.1em solid black;
-    border-top: 0.1em solid black;
-    transform: rotate(135deg);
-    margin-right: 1rem;
-    margin-left: 1em;
-    float: right;
-    cursor: pointer;
-}
+
 .nav-list li {list-style: none;}
-.has_child ul{visibility: hidden;}
 .ept-cust-mb-sb-header{display: none;}
 .ept-cust-dt-sb-header {display: block;}
 #main-header .ept-ug-mh-l,#main-header .ept-ug-mh-r{display: block;}
