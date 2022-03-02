@@ -6,7 +6,9 @@ setTimeout(function(){
 
 setTimeout(function(){
 	$(document).ready(function() {
-		alert($("#ept-prd-vr").val());
+		$(document).on('has_child','click',function(){
+			alert($(this).html());
+		});
 		if(temp_pr_version[5] == '' || temp_pr_version[5] == undefined)
 		{
 // 			window.location = $("#site-nav ul li:first a").attr('href');
