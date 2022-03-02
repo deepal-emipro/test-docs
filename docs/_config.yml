@@ -18,3 +18,5 @@ product_version:
  - 15
  - 14
  - 13
+customjs: 
+ - /theme/assets/js/jquery.min.js
