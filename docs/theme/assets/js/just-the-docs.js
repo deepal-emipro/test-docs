@@ -31,7 +31,7 @@ function initNav() {
     }
     if (target) {
       e.preventDefault();
-      target.parentNode.classList.toggle('active');
+      //target.parentNode.classList.toggle('active');
     }
   });
 
