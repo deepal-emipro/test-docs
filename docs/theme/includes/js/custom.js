@@ -1,6 +1,3 @@
-var jQueryScript = document.createElement('script');  
-jQueryScript.setAttribute('src',"{{ 'theme/assets/js/jquery.min.js' | relative_url }}");
-document.head.appendChild(jQueryScript);
 
 var temp_pr_version = document.location.href.toString().split('/');
 setTimeout(function(){
