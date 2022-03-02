@@ -6,7 +6,7 @@ setTimeout(function(){
 
 setTimeout(function(){
 	$(document).ready(function() {
-
+		alert($(window.location.href));
 		if(temp_pr_version[5] == '' || temp_pr_version[5] == undefined)
 		{
 // 			window.location = $("#site-nav ul li:first a").attr('href');
