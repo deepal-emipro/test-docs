@@ -10,10 +10,10 @@ setTimeout(function(){
 			$(this).find('ul').toggle(
 			  function() {
 			  	console.log('In If');
-			    $(this).css("visibility","visible;");
+			    $(this).css("visibility","hidden;");
 			  }, function() {
 			  	console.log('In else');
-			    $(this).css("visibility","hidden");
+			    $(this).css("visibility","visible");
 			  }
 			);
 		});
