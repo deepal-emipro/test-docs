@@ -26,17 +26,14 @@ jtd.onReady = function(ready) {
 function initNav() {
   jtd.addEvent(document, 'click', function(e){
     var target = e.target;
-    var t1 = e.target.getElementsByClassName("has_child");
-console.log(t1.length)
-    
-    while (t1) {    
-      t1 = t1.parentNode;
+    while (target && !(target.classList && target.classList.contains('has_child'))) {
+      target = target.parentNode;
     }
-    if (t1) {
+    if (target) {
       e.preventDefault();
-      t1.classList.toggle('active');
+      target.parentNode.classList.toggle('active');
     }
- });
+  });
 
   const siteNav = document.getElementById('site-nav');
   const mainHeader = document.getElementById('main-header');
