@@ -9,8 +9,10 @@ setTimeout(function(){
 		$(document).on('click','.has_child',function(){
 			$(this).find('ul').toggle(
 			  function() {
+			  	console.log('In If');
 			    $(this).css("visibility","visible;");
 			  }, function() {
+			  	console.log('In else');
 			    $(this).css("visibility","hidden");
 			  }
 			);
