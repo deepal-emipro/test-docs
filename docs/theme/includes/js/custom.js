@@ -6,17 +6,20 @@ setTimeout(function(){
 
 setTimeout(function(){
 	$(document).ready(function() {
-		$(document).on('click','.has_child :: before',function(){
-			$(this).find('ul').toggle(
-			  function() {
-			  	console.log('In If');
-			    $(this).css({"visibility":"hidden","display":"none"});
-			  }, function() {
-			  	console.log('In else');
-			    $(this).css({"visibility":"visible","display":"block"});
-			  }
-			);
+		$(".has_child").each(function() {
+		    $(this).append('<a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a>');
 		});
+		// $(document).on('click','.has_child :: before',function(){
+		// 	$(this).find('ul').toggle(
+		// 	  function() {
+		// 	  	console.log('In If');
+		// 	    $(this).css({"visibility":"hidden","display":"none"});
+		// 	  }, function() {
+		// 	  	console.log('In else');
+		// 	    $(this).css({"visibility":"visible","display":"block"});
+		// 	  }
+		// 	);
+		// });
 		if(temp_pr_version[5] == '' || temp_pr_version[5] == undefined)
 		{
 // 			window.location = $("#site-nav ul li:first a").attr('href');
