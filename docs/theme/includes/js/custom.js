@@ -12,7 +12,7 @@ setTimeout(function(){
 // 			window.location = $("#site-nav ul li:first a").attr('href');
 		}
 	});
-},200);
+},1000);
 
 function changeProductVersion(data){
 	
