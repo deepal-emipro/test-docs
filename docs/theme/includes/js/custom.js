@@ -7,7 +7,7 @@ setTimeout(function(){
 setTimeout(function(){
 	$(document).ready(function() {
 		$(document).on('click','.has_child',function(){
-			alert($(this).html());
+			$(this).find('ul').toggleClass('active');
 		});
 		if(temp_pr_version[5] == '' || temp_pr_version[5] == undefined)
 		{
