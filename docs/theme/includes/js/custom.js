@@ -6,6 +6,10 @@ setTimeout(function(){
 
 setTimeout(function(){
 	$(document).ready(function() {
+		$("#site-nav").find('ul').addClass('nav-list');
+		$("#site-nav").find('li').addClass('nav-list-item');
+		$("#site-nav").find('a').addClass('nav-list-link');
+
 		$(".has_child").each(function() {
 			
 			$(this).find('ul').addClass('nav-list');
