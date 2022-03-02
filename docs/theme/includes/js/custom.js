@@ -7,7 +7,13 @@ setTimeout(function(){
 setTimeout(function(){
 	$(document).ready(function() {
 		$(document).on('click','.has_child',function(){
-			$(this).find('ul').toggleClass('active');
+			$(this).find('ul').toggle(
+			  function() {
+			    $(this).css("visibility","visible;");
+			  }, function() {
+			    $(this).css("visibility","hidden");
+			  }
+			);
 		});
 		if(temp_pr_version[5] == '' || temp_pr_version[5] == undefined)
 		{
