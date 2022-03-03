@@ -26,6 +26,7 @@ setTimeout(function(){
 			if( $(this).prop("href").toString().split(temp_pr_version[4])[1] === new_url[1])
 			{
 				$(this).parent('li').addClass('active');
+				$(this).parents('li').addClass('active');
 				$(this).addClass('active');
 			}
 		});
