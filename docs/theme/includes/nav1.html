@@ -3,8 +3,6 @@
         | where_exp:"item", "item.is_index != nil" -%}
   
   {%- for node in index_page -%}
-  <p>{{ page.dir }}</p>
-  <p>{{ node.dir }}</p>
     {%- if page.dir contains node.dir -%}
       <li>
             <a href="{{ node.url | absolute_url }}" class="nav-list-link">{{ node.content }}</a>
