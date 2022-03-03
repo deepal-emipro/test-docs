@@ -6,7 +6,7 @@
 
     {%- if page.dir contains node.dir -%}
       <li>
-          <p>{{ node.content }}</p>
+          <p>{{ node }}</p>
             <a href="{{ node.url | absolute_url }}" class="nav-list-link">{{ node.content }}</a>
       </li>
     {%- endif -%}
