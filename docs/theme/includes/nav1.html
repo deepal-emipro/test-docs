@@ -37,10 +37,11 @@
   <p>{{ node.url }}</p>
   {%- endfor -%}
   {%- for node in index_page -%}
-  
+  <p>{{ node.url }}</p>
+  <p>{{ page.url }}</p>
     {%- if page.dir contains node.dir -%}
       <li>
-            <a href="{{ node.url | absolute_url }}" class="nav-list-link {% if page.url == node.url %} active{% endif %}">{{ node.content }}</a>
+            <a href="{{ node.url | absolute_url }}" class="nav-list-link">{{ node.content }}</a>
       </li>
     {%- endif -%}
   {%- endfor -%}
