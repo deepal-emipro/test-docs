@@ -7,13 +7,11 @@ setTimeout(function(){
 setTimeout(function(){
 	$(document).ready(function() {
 		
+		$('.site-nav ul').addClass('nav-list');
+		$('.site-nav li').addClass('nav-list-item');
+		$('.site-nav li a').addClass('nav-list-link');		
 
 		$(".has_child").each(function() {
-			$(this).find('ul').addClass('nav-list');
-			$(this).find('li').addClass('nav-list-item');
-			$(this).find('a').addClass('nav-list-link');	
-			$(this).find('ul').addClass('nav-list');
-			$(this).addClass('nav-list-item');
 			$(this).find('a').first().before('<a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a>');
 		});
 		// $(document).on('click','.has_child :: before',function(){
