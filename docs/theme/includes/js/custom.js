@@ -23,9 +23,9 @@ setTimeout(function(){
 		$(".site-nav .nav-list-link").each(function() {
 			console.log($(this).prop("href"));
 			console.log(new_url[1]);
-			if( $(this).prop("href").indexOf(new_url[1]))
+			if( $(this).prop("href").toString().split(temp_pr_version[4])[1] === new_url[1])
 			{
-				console.log('In If Part');
+				$(this).addClass('active');
 			}	
 			else
 			{
