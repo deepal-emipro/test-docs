@@ -1,6 +1,6 @@
 
 var temp_pr_version = document.location.href.toString().split('/');
-var new_url = document.location.href.toString().split(document.location.origin);
+var new_url = document.location.href.toString().split(temp_pr_version[4])
 
 setTimeout(function(){
 	document.getElementById("ept-prd-vr").value= parseInt(temp_pr_version[4].toString().replace('v',''))
@@ -21,9 +21,9 @@ setTimeout(function(){
 // 			window.location = $("#site-nav ul li:first a").attr('href');
 		}
 		$(".site-nav .nav-list-link").each(function() {
-			console.log($(this).prop(href));
+			console.log($(this).prop("href"));
 			console.log(new_url[1]);
-			if( $(this).prop(href) === new_url[1] )
+			if( $(this).prop("href").indexOf(new_url[1]))
 			{
 				console.log('In If Part');
 			}	
