@@ -1,5 +1,7 @@
 
 var temp_pr_version = document.location.href.toString().split('/');
+var new_url = document.location.href.toString().split(document.location.origin);
+
 setTimeout(function(){
 	document.getElementById("ept-prd-vr").value= parseInt(temp_pr_version[4].toString().replace('v',''))
 },1000);
@@ -18,6 +20,18 @@ setTimeout(function(){
 		{
 // 			window.location = $("#site-nav ul li:first a").attr('href');
 		}
+		$(".site-nav .nav-list-link").each(function() {
+			if( $(this).href.indexOf() === new_url[1] )
+			{
+				console.log('In If Part');
+			}	
+			else
+			{
+				console.log('In else');
+			}
+		});
+		
+		
 	});
 },1000);
 
@@ -26,4 +40,4 @@ function changeProductVersion(data){
 	var temp_url = "{{ site.url }}{{site.baseurl }}/";
 	window.location = temp_url + 'v'+data.value;
 }
-	
+
