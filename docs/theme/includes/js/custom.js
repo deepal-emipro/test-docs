@@ -8,7 +8,7 @@ setTimeout(function(){
 
 setTimeout(function(){
 	$(document).ready(function() {
-		
+		$(".site-nav").css("display","block");
 		$('.site-nav ul li ul').addClass('nav-list');
 		$('.site-nav ul li ul li').addClass('nav-list-item');
 		$('.site-nav ul li ul li a').addClass('nav-list-link');		
