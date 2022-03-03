@@ -32,11 +32,12 @@
   {%- endfor -%}
 
   {%- assign pages_list = sorted_number_ordered_pages | concat: sorted_string_ordered_pages -%}
-  
 
+  {%- for node in pages_list -%}
+  <p>{{ node.url }}</p>
+  {%- endfor -%}
   {%- for node in index_page -%}
-  <p>{{ page.dir }}</p>
-  <p>{{ node.dir }}</p>
+  
     {%- if page.dir contains node.dir -%}
       <li>
             <a href="{{ node.url | absolute_url }}" class="nav-list-link {% if page.url == node.url %} active{% endif %}">{{ node.content }}</a>
