@@ -1,6 +1,5 @@
 ---
 is_index: True
-nav_exclude: true
 ---
 
 - [Overview](overview/1-overview.md)
