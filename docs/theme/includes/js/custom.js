@@ -35,7 +35,7 @@ setTimeout(function(){
 		});
 		if(temp_pr_version[5] == '' || temp_pr_version[5] == undefined)
 		{
-			//window.location = $("#site-nav ul li:first a").attr('href');
+			window.location = $("#site-nav ul li:first a").attr('href');
 		}
 		
 		
