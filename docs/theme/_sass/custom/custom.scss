@@ -68,12 +68,12 @@ blockquote {
     border-bottom: 1px solid #dee2e6;
 }
 .ept-ug-mh-l{
-	font-size: 18px;
+	font-size: 20px;
     	font-weight: 500;
 	padding-left: 1rem;
 }
 .ept-ug-mh-r{padding-right: 2rem;padding-top: 14px;}
-.ept-ug-mh-r select{padding: 5px;}
+.ept-ug-mh-r select{padding: 10px;border-radius: 10px;background: #fff;}
 @media (min-width: 1900px){
 	.main-header{
 		width: calc((93% - 340px));
