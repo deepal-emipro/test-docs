@@ -59,11 +59,11 @@ layout: table_wrappers
             {% if collections_size > 1 %}
               <div class="nav-category">{{ collection_value.name }}</div>
             {% endif %}
-            {% include nav.html pages=collection %}
+            {% include nav1.html pages=site.html_pages %}
           {% endif %}
         {% endfor %}
       {% else %}
-        {% include nav.html pages=site.html_pages %}
+        {% include nav1.html pages=site.html_pages %}
       {% endif %}
     </nav>
     <footer class="site-footer">
