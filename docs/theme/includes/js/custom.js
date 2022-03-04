@@ -8,8 +8,9 @@ setTimeout(function(){
 
 setTimeout(function(){
 	$(document).ready(function() {
-		if($( window ).width() >= 1023 )
+		if($( window ).width() >= 1023 ){
 			$(".site-nav").css("display","block");
+		}
 		$('.site-nav ul li ul').addClass('nav-list');
 		$('.site-nav ul li ul li').addClass('nav-list-item');
 		$('.site-nav ul li ul li a').addClass('nav-list-link');		
@@ -22,12 +23,21 @@ setTimeout(function(){
 			window.location = $("#site-nav ul li:first a").attr('href');
 		}
 		$(".site-nav .nav-list-link").each(function() {
-			if( $(this).prop("href").toString().split(temp_pr_version[4])[1] === new_url[1])
-			{
-				$(this).parent('li').addClass('active');
-				$(this).parents('li').addClass('active');
-				$(this).addClass('active');
-			}
+		    if( $(this).text().toString().length >= 3 )
+		    {
+		    	console.log('If part');
+		        if( $(this).prop("href").toString().split(temp_pr_version[4])[1] === new_url[1])
+				{
+					$(this).parent('li').addClass('active');
+					$(this).parents('li').addClass('active');
+					$(this).addClass('active');
+				}
+		    }
+		    else{
+		    	console.log('else part');
+		        $(this).remove();
+		    }
+			
 		});
 		
 		
