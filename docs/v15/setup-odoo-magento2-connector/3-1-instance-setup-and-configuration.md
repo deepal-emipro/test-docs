@@ -1,10 +1,3 @@
----
-layout: default
-title: Instance Setup & Configuration
-parent: Setup Odoo Magento2 Connector
-nav_order: 3.1
----
-
 ### Instance Setup & Configuration
 
 

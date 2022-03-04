@@ -1,10 +1,3 @@
----
-layout: default
-title: Generate Access Token On Magento
-parent: Setup Odoo Magento2 Connector
-nav_order: 3.2
----
-
 ### Generate Access Token On Magento
 
 
