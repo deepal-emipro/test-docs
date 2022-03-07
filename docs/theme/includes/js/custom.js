@@ -1,5 +1,6 @@
 var temp_pr_version = document.location.href.toString().split('/');
-var new_url = document.location.href.toString().split(temp_pr_version[4])
+var new_url = document.location.href.toString().split(temp_pr_version[4]);
+var pg_cur,pg_pp,pg_pn;
 
 setTimeout(function(){
 	document.getElementById("ept-prd-vr").value= parseInt(temp_pr_version[4].toString().replace('v',''))
@@ -35,11 +36,19 @@ setTimeout(function(){
 			
 		});
 		
+		//set custom attribute for the pagination
 		setTimeout(function(){
 			$(".site-nav .nav-list-link").each(function(index) {
 		    		$(this).attr("cur-pg",index);
 			});
 		},1500);
+
+		//get Current,Previous and Next Page
+		setTimeout(function(){
+			console.log($(body).find(".nav-list-link .active").attr('cur-pg'));
+			console.log($(".nav-list-link .active").attr('cur-pg'));
+			pg_cur = $(".nav-list-link .active").attr('cur-pg');
+		},2000);
 
 
 
