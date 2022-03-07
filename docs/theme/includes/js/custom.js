@@ -57,8 +57,8 @@ setTimeout(function(){
 			
 		},4000);
 		$(".ept_pp").click(function(){
-			console.log('in previous');
 			$(".nav-list-link").each(function(index) {
+				console.log(parseInt($(this).attr('cur-pg'))+ " ==== "+ pg_pp);
 				if(parseInt($(this).attr('cur-pg')) === pg_pp )
 					console.log($(this).attr('href'));
 			});
