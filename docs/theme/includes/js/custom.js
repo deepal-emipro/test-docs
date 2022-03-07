@@ -35,11 +35,15 @@ setTimeout(function(){
 		    }
 			
 		});
+		
 		setTimeout(function(){
 			$(".site-nav .nav-list-link").each(function(index) {
 		    		$(this).attr("cur-pg",index);
 			});
-		},2000);
+		},1500);
+
+
+
 		if(temp_pr_version[5] == '' || temp_pr_version[5] == undefined)
 		{
 			// Fire nav click event once body is ready
