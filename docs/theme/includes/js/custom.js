@@ -44,7 +44,7 @@ setTimeout(function(){
 		
 		//hide nav bar panel
 		$('.ept_nav_arr_hide').click(function(){
-			$('#site-nav').animate({"left":"-200px"}, "slow");
+			$('#site-nav').hide('slide', {direction: 'left'}, 1000);
 		});
 	});
 },1000);
