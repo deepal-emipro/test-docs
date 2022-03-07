@@ -80,7 +80,7 @@ blockquote {
 	}
 }
 @media (max-width: 1023px){
-.ept-ug-mh-r{position: absolute;right: 40px;margin-top: 5px;}
+.ept-ug-mh-r{position: absolute;right: 40px;margin-top: -3px;}
 .ept-ug-mh-r select{padding: 5px;}
 .icon {color: #087DDA;}
 body{font-size: 16px;}
@@ -90,10 +90,7 @@ body{font-size: 16px;}
 #main-header .ept-ug-mh-l,#main-header .ept-ug-mh-r{display: none;}
 .ept-cust-dt-sb-header {display: none;}
 .ept-cust-mb-sb-header{display:block;}
-.ept-prd-name {
-    margin-left: 0px;
-    padding-top: 4px;
-}
+.ept-prd-name {margin-left: 0px;padding-top: 8px;font-size: 16px;width: 58%;}
 .ept-prd-logo{height: 30px;}
 .ept-ug-mh-l,.ept-ug-mh-r{padding-right: 1rem;padding-top: 4px;}
 	.side-bar {
