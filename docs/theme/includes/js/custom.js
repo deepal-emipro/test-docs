@@ -22,7 +22,7 @@ setTimeout(function(){
 		    if( $(this).text().toString().length >= 3 )
 		    {
 		    	console.log(index);
-		    	$("").attr("curpage",index);
+		    	$(this).attr("curpage",index);
 		        if( $(this).prop("href").toString().split(temp_pr_version[4])[1] === new_url[1])
 				{
 					$(this).parent('li').addClass('active');
