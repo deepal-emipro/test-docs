@@ -41,6 +41,11 @@ setTimeout(function(){
 		//set link in Product Name
 		var temp_pr_name_link = $(".ept_a_prd_logo").attr('href') + temp_pr_version[4];
 		$(".ept_a_prd_logo").attr('href',temp_pr_name_link);
+		
+		//hide nav bar panel
+		$('.ept_nav_arr_hide').click(function(){
+			$('#site-nav').animate({"left":"-200px"}, "slow");
+		});
 	});
 },1000);
 
