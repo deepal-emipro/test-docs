@@ -1,4 +1,4 @@
-.ept_nav_arr_hide{padding: 10px;border-radius: 10px;background: #fff;border: 1px solid #5c5962;font-size: 20px;}
+.ept_nav_arr_hide{padding: 5px;border-radius: 10px;background: #fff;border: 1px solid #dee2e6;font-size: 15px;position: absolute;top: 100px;right: -15px;cursor: pointer;display: block;}
 .ept-prd-ug-text{display: table-caption;margin-left: 7px;font-size: 14px;width: max-content;line-height: 10px;}
 .site-nav{display: none;}
 .site-nav ul:first-of-type{list-style-type: none;padding-left: 0px;}
@@ -83,6 +83,7 @@ blockquote {
 	}
 }
 @media (max-width: 1023px){
+.ept_nav_arr_hide{display: none;}
 .ept-prd-ug-text{display: none;}
 .ept-ug-mh-r{position: absolute;right: 40px;margin-top: -3px;}
 .ept-ug-mh-r select{padding: 5px;font-size: 13px;}
