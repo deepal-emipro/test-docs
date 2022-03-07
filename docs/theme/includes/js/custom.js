@@ -21,10 +21,11 @@ setTimeout(function(){
 		$(".site-nav .nav-list-link").each(function(index) {
 		    if( $(this).text().toString().length >= 3 )
 		    {
-		    	console.log(index);
-		    	$(this).attr("curpage",index);
+		    	
 		        if( $(this).prop("href").toString().split(temp_pr_version[4])[1] === new_url[1])
-				{
+				{	
+					console.log(index);
+		    		$(this).attr("curpage",index);
 					$(this).parent('li').addClass('active');
 					$(this).parents('li').addClass('active');
 					$(this).addClass('active');
