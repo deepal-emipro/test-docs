@@ -37,7 +37,7 @@ setTimeout(function(){
 		});
 		setTimeout(function(){
 			$(".site-nav .nav-list-link").each(function(index) {
-		    		$(this).attr("curpage",index);
+		    		$(this).attr("cur-pg",index);
 			});
 		},2000);
 		if(temp_pr_version[5] == '' || temp_pr_version[5] == undefined)
