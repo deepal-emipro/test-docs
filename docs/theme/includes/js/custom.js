@@ -59,8 +59,9 @@ setTimeout(function(){
 		$(".ept_pp").click(function(){
 			if(pg_pp >= 0){
 				$(".nav-list-link").each(function(index) {
+					console.log($(this).val());
 					if(parseInt($(this).attr('cur-pg')) === pg_pp ){
-						console.log($(this).val());
+
 						$(this).click();
 					}
 				});	
