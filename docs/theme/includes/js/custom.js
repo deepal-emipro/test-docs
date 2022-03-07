@@ -1,6 +1,6 @@
 var temp_pr_version = document.location.href.toString().split('/');
 var new_url = document.location.href.toString().split(temp_pr_version[4]);
-var pg_cur,pg_pp,pg_pn;
+var pg_cur,pg_pp,pg_pn,pg_st,pg_en;
 
 setTimeout(function(){
 	document.getElementById("ept-prd-vr").value= parseInt(temp_pr_version[4].toString().replace('v',''))
@@ -45,12 +45,27 @@ setTimeout(function(){
 
 		//get Current,Previous and Next Page
 		setTimeout(function(){
-			console.log($(body).find(".nav-list-link .active").attr('cur-pg'));
-			console.log($(".nav-list-link .active").attr('cur-pg'));
-			pg_cur = $(".nav-list-link .active").attr('cur-pg');
-		},2000);
-
-
+			$( ".nav-list-link" ).each(function(index) {
+			    if($(this).hasClass('active')){
+			        pg_cur = pareseInt($(this).attr("cur-pg"));
+			        pg_pp = pg_cur - 1;
+			        pg_pn = pg_cur + 1;
+			        pg_st = parseInt($("#site-nav ul li:first a").attr('cur-pg'));
+			        pg_en = parseInt($("#site-nav ul li:last a").attr('cur-pg'));
+			    }
+			});
+			
+		},4000);
+		$(".ept_pp").click(function(){
+			$(".nav-list-link").each(function(index) {
+				if(parseInt($(this).attr('cur-pg')) === pg_pp )
+					console.log($(this).attr('href'));
+			});
+			//window.location = $("#site-nav ul li:first a").attr('href');	
+		});
+		$(".ept_pn").click(function(){
+			window.location = $("#site-nav ul li:first a").attr('href');
+		});
 
 		if(temp_pr_version[5] == '' || temp_pr_version[5] == undefined)
 		{
