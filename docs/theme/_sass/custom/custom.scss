@@ -52,7 +52,9 @@ blockquote {
 .site-title:hover {background-image: none;}
 .site-nav, .site-header, .site-footer {width: 100%;}
 .ept-prd-name{float: left;position: relative;display: block;padding-top: 14px;margin-left: 5px;}
-.site-footer{display: none !important;}
+.site-footer{
+    /*display: none !important;*/
+}
 .side-bar {
     width: 350px;
     background-color: white;
