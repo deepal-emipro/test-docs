@@ -59,8 +59,10 @@ setTimeout(function(){
 		$(".ept_pp").click(function(){
 			if(pg_pp >= 0){
 				$(".nav-list-link").each(function(index) {
-					if(parseInt($(this).attr('cur-pg')) === pg_pp )
+					if(parseInt($(this).attr('cur-pg')) === pg_pp ){
+						console.log($(this).val());
 						$(this).click();
+					}
 				});	
 			}
 			//window.location = $("#site-nav ul li:first a").attr('href');	
