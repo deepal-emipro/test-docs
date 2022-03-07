@@ -18,9 +18,11 @@ setTimeout(function(){
 		$(".has_child").each(function() {
 			$(this).find('a').first().before('<a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a>');
 		});
-		$(".site-nav .nav-list-link").each(function() {
+		$(".site-nav .nav-list-link").each(function(index) {
 		    if( $(this).text().toString().length >= 3 )
 		    {
+		    	console.log(index);
+		    	$("").attr("curpage",index);
 		        if( $(this).prop("href").toString().split(temp_pr_version[4])[1] === new_url[1])
 				{
 					$(this).parent('li').addClass('active');
