@@ -1,4 +1,3 @@
-
 var temp_pr_version = document.location.href.toString().split('/');
 var new_url = document.location.href.toString().split(temp_pr_version[4])
 
@@ -8,6 +7,7 @@ setTimeout(function(){
 
 setTimeout(function(){
 	$(document).ready(function() {
+		// set class and add nav-expander class
 		if($( window ).width() >= 1023 ){
 			$(".site-nav").css("display","block");
 		}
@@ -35,10 +35,12 @@ setTimeout(function(){
 		});
 		if(temp_pr_version[5] == '' || temp_pr_version[5] == undefined)
 		{
+			// Fire nav click event once body is ready
 			window.location = $("#site-nav ul li:first a").attr('href');
 		}
-		
-		
+		//set link in Product Name
+		var temp_pr_name_link = $(".ept_a_prd_logo").attr('href') + temp_pr_version[4];
+		$(".ept_a_prd_logo").attr('href',temp_pr_name_link);
 	});
 },1000);
 
