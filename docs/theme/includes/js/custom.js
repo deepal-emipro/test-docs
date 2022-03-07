@@ -47,7 +47,7 @@ setTimeout(function(){
 		setTimeout(function(){
 			$( ".nav-list-link" ).each(function(index) {
 			    if($(this).hasClass('active')){
-			        pg_cur = pareseInt($(this).attr("cur-pg"));
+			        pg_cur = parseInt($(this).attr("cur-pg"));
 			        pg_pp = pg_cur - 1;
 			        pg_pn = pg_cur + 1;
 			        pg_st = parseInt($("#site-nav ul li:first a").attr('cur-pg'));
