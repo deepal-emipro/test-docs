@@ -57,11 +57,12 @@ setTimeout(function(){
 			
 		},4000);
 		$(".ept_pp").click(function(){
-			$(".nav-list-link").each(function(index) {
-				console.log(parseInt($(this).attr('cur-pg'))+ " ==== "+ pg_pp);
-				if(parseInt($(this).attr('cur-pg')) === pg_pp )
-					console.log($(this).attr('href'));
-			});
+			if(pg_pp >= 0){
+				$(".nav-list-link").each(function(index) {
+					if(parseInt($(this).attr('cur-pg')) === pg_pp )
+						$(this).click();
+				});	
+			}
 			//window.location = $("#site-nav ul li:first a").attr('href');	
 		});
 		$(".ept_pn").click(function(){
