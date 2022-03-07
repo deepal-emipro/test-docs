@@ -5,7 +5,7 @@
   {%- for node in index_page -%}
     {%- if page.dir contains node.dir -%}
       <li>
-            <a href="{{ node.url | absolute_url }}" curindex="{{ forloop.index }}" class="nav-list-link">{{ node.content }}</a>
+            <a href="{{ node.url | absolute_url }}" curindex="{{ node.index }}" class="nav-list-link">{{ node.content }}</a>
       </li>
     {%- endif -%}
   {%- endfor -%}
