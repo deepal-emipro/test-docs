@@ -57,6 +57,7 @@ setTimeout(function(){
 			
 		},4000);
 		$(".ept_pp").click(function(){
+			console.log('in previous');
 			$(".nav-list-link").each(function(index) {
 				if(parseInt($(this).attr('cur-pg')) === pg_pp )
 					console.log($(this).attr('href'));
@@ -64,7 +65,8 @@ setTimeout(function(){
 			//window.location = $("#site-nav ul li:first a").attr('href');	
 		});
 		$(".ept_pn").click(function(){
-			window.location = $("#site-nav ul li:first a").attr('href');
+			console.log('in next call');
+			//window.location = $("#site-nav ul li:first a").attr('href');
 		});
 
 		if(temp_pr_version[5] == '' || temp_pr_version[5] == undefined)
