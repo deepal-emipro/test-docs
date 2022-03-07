@@ -24,7 +24,6 @@ setTimeout(function(){
 		    	
 		        if( $(this).prop("href").toString().split(temp_pr_version[4])[1] === new_url[1])
 				{	
-					console.log(index);
 		    		$(this).attr("curpage",index);
 					$(this).parent('li').addClass('active');
 					$(this).parents('li').addClass('active');
@@ -36,6 +35,11 @@ setTimeout(function(){
 		    }
 			
 		});
+		setTimeout(function(){
+			$(".site-nav .nav-list-link").each(function(index) {
+		    		$(this).attr("curpage",index);
+			});
+		},2000);
 		if(temp_pr_version[5] == '' || temp_pr_version[5] == undefined)
 		{
 			// Fire nav click event once body is ready
