@@ -105,9 +105,10 @@ setTimeout(function(){
 			if($( window ).width() >= 1023 ){
 				if($(this).hasClass('ept_lf_arr')){
 					$('.side-bar').css("left","-304px");
+					//$('.main').animate({'marginLeft' : "44px"});
 					$(this).removeClass('ept_lf_arr');
 					$(this).addClass('ept_rf_arr');
-					$(".main").css("margin-left","44px;");
+					$('.main').animate({'marginLeft' : "44px"});
 				}
 				else
 				{
@@ -115,6 +116,7 @@ setTimeout(function(){
 					$(this).removeClass('ept_rf_arr');		
 					$(this).addClass('ept_lf_arr');
 					$(".main").css("margin-left","348px;");
+					$('.main').animate({'marginLeft' : "348px"});
 				}
 				
 			}
