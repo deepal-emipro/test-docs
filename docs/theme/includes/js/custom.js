@@ -61,8 +61,7 @@ setTimeout(function(){
 				$(".nav-list-link").each(function(index) {
 					console.log($(this).attr('cur-pg'));
 					if(parseInt($(this).attr('cur-pg')) === pg_pp ){
-					console.log(new_url[0].slice(0, -1) + '' + $(this).attr('href'));
-						window.location = new_url[0].slice(0, -1) + '' + $(this).attr('href');
+						window.location = document.location.origin + $(this).attr('href');
 					}
 				});	
 			}
