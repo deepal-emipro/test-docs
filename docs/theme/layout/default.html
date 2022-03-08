@@ -120,7 +120,7 @@ layout: table_wrappers
               {%- endif -%}
             {%- endif -%}
           {%- endfor -%}
-          <!-- <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
             <ol class="breadcrumb-nav-list">
               {% if page.grand_parent %}
                 <li class="breadcrumb-nav-list-item"><a href="{{ first_level_url }}">{{ page.grand_parent }}</a></li>
@@ -130,17 +130,7 @@ layout: table_wrappers
               {% endif %}
               <li class="breadcrumb-nav-list-item"><span>{{ page.title }}</span></li>
             </ol>
-          </nav> -->
-          {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
-
-          <a href="/">Home</a>
-          {% for crumb in crumbs offset: 1 %}
-            {% if forloop.last %}
-              / {{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}
-            {% else %}
-              / <a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a>
-            {% endif %}
-          {% endfor %}
+          </nav>
         {% endif %}
       {% endunless %}
       <div id="main-content" class="main-content" role="main">
