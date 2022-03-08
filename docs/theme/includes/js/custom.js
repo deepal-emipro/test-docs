@@ -112,11 +112,10 @@ setTimeout(function(){
 				}
 				else
 				{
+					$('.main').animate({'marginLeft' : "348px"});
 					$('.side-bar').css("left","0px");
 					$(this).removeClass('ept_rf_arr');		
 					$(this).addClass('ept_lf_arr');
-					$(".main").css("margin-left","348px;");
-					$('.main').animate({'marginLeft' : "348px"});
 				}
 				
 			}
