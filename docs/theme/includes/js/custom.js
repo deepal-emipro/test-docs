@@ -101,8 +101,21 @@ setTimeout(function(){
 		$(".ept_a_prd_logo").attr('href',temp_pr_name_link);
 		
 		//hide nav bar panel
-		$('.ept_nav_arr_hide').click(function(){
-			$('#site-nav').hide('slide', {direction: 'left'}, 1000);
+		$('.ept_nav_arr').click(function(){
+			if($( window ).width() >= 1023 ){
+				if($(this).hasClass('ept_lf_arr')){
+					$('.side-bar').css("left","-304px");
+					$(this).removeClass('ept_lf_arr');
+					$(this).addClass('ept_rf_arr');	
+				}
+				else
+				{
+					$('.side-bar').css("left","0px");
+					$(this).removeClass('ept_rf_arr');		
+					$(this).addClass('ept_lf_arr');
+				}
+				
+			}
 		});
 	});
 },1000);

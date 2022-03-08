@@ -1,8 +1,20 @@
 .ept_div_pp{float:left;}
 .ept_div_pn{float:right;}
-.ept_nav_arr_hide{
+.ept_lf_arr{
     padding: 5px;
-    background: url('../images/arrow_right.png');
+    background: url('../images/al.png');
+    position: absolute;
+    top: 100px;
+    right: -2px;
+    cursor: pointer;
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-size: 50px;
+}
+.ept_rf_arr{
+    padding: 5px;
+    background: url('../images/ar.png');
     position: absolute;
     top: 100px;
     right: -2px;
@@ -96,7 +108,7 @@ blockquote {
 	}
 }
 @media (max-width: 1023px){
-.ept_nav_arr_hide{display: none;}
+.ept_lf_arr,.ept_rf_arr{display: none;}
 .ept-prd-ug-text{display: none;}
 .ept-ug-mh-r{position: absolute;right: 40px;margin-top: -3px;}
 .ept-ug-mh-r select{padding: 0px;font-size: 13px;border:0px;}
