@@ -70,7 +70,7 @@ setTimeout(function(){
 			}
 		});
 		$(".ept_pn").click(function(){
-			if(pg_pn >= 0){
+			if(pg_pn <= pg_en){
 				$(this).css("pointer-events","auto");
 				$(".nav-list-link").each(function(index) {
 					console.log($(this).attr('cur-pg') + " = "+ pg_pn);
