@@ -104,11 +104,11 @@ setTimeout(function(){
 		$('.ept_nav_arr').click(function(){
 			if($( window ).width() >= 1023 ){
 				if($(this).hasClass('ept_lf_arr')){
-					$('.side-bar').animate({'left' : "-304px"});
+					$('.side-bar').animate({'left' : "-350px"});
 					$(this).removeClass('ept_lf_arr');
 					$(this).addClass('ept_rf_arr');
-					$('.main').animate({'marginLeft' : "44px"});
-					$(".main-header").css("width","calc(100% - 44px)");
+					$('.main').animate({'marginLeft' : "2px"});
+					$(".main-header").css("width","calc(100% - 2px)");
 				}
 				else
 				{
