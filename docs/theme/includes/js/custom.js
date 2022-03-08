@@ -54,7 +54,15 @@ setTimeout(function(){
 			        pg_en = parseInt($("#site-nav ul li:last a").attr('cur-pg'));
 			    }
 			});
-			console.log(pg_cur + " "+ pg_pp +" "+pg_pn +" "+pg_st +" "+pg_en);
+			if(pg_cur == pg_en)
+				$('.ept_pn').css("pointer-events","none");
+			else
+				$('.ept_pn').css("pointer-events","auto");
+			if(pg_cur == pg_st)
+				$('.ept_pp').css("pointer-events","none");
+			else
+				$('.ept_pp').css("pointer-events","auto");
+			
 		},4000);
 		$(".ept_pp").click(function(){
 			if(pg_pp >= 0){
