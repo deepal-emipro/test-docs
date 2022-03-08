@@ -60,7 +60,6 @@ setTimeout(function(){
 			if(pg_pp >= 0){
 				$(this).css("pointer-events","auto");
 				$(".nav-list-link").each(function(index) {
-					console.log($(this).attr('cur-pg'));
 					if(parseInt($(this).attr('cur-pg')) === pg_pp ){
 						window.location = document.location.origin + $(this).attr('href');
 					}
@@ -72,8 +71,17 @@ setTimeout(function(){
 			//window.location = $("#site-nav ul li:first a").attr('href');	
 		});
 		$(".ept_pn").click(function(){
-			console.log('in next call');
-			//window.location = $("#site-nav ul li:first a").attr('href');
+			if(pg_pn >= 0){
+				$(this).css("pointer-events","auto");
+				$(".nav-list-link").each(function(index) {
+					if(parseInt($(this).attr('cur-pg')) === pg_pn ){
+						window.location = document.location.origin + $(this).attr('href');
+					}
+				});	
+			}
+			else{
+				$(this).css("pointer-events","none");
+			}
 		});
 
 		if(temp_pr_version[5] == '' || temp_pr_version[5] == undefined)
