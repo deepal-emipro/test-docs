@@ -107,14 +107,14 @@ setTimeout(function(){
 					$('.side-bar').css("left","-304px");
 					$(this).removeClass('ept_lf_arr');
 					$(this).addClass('ept_rf_arr');
-					$(".main").css("margin-left":"44px;");
+					$(".main").css("margin-left","44px;");
 				}
 				else
 				{
 					$('.side-bar').css("left","0px");
 					$(this).removeClass('ept_rf_arr');		
 					$(this).addClass('ept_lf_arr');
-					$(".main").css("margin-left":"348px;");
+					$(".main").css("margin-left","348px;");
 				}
 				
 			}
