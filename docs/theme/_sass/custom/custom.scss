@@ -78,7 +78,7 @@ blockquote {
 	padding-left: 1rem;
 }
 .ept-ug-mh-r{padding-right: 2rem;padding-top: 14px;}
-.ept-ug-mh-r select{padding: 10px;border-radius: 10px;background: #fff;}
+.ept-ug-mh-r select{padding: 0px;border-radius: 10px;background: #fff;border:0px;}
 @media (min-width: 1900px){
 	.main-header{
 		width: calc((93% - 340px));
@@ -88,7 +88,7 @@ blockquote {
 .ept_nav_arr_hide{display: none;}
 .ept-prd-ug-text{display: none;}
 .ept-ug-mh-r{position: absolute;right: 40px;margin-top: -3px;}
-.ept-ug-mh-r select{padding: 5px;font-size: 13px;}
+.ept-ug-mh-r select{padding: 0px;font-size: 13px;border:0px;}
 .icon {color: #087DDA;}
 body{font-size: 16px;}
 .site-header{min-height: 50px;}
