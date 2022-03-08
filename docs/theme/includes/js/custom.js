@@ -62,7 +62,7 @@ setTimeout(function(){
 					console.log($(this).attr('cur-pg'));
 					if(parseInt($(this).attr('cur-pg')) === pg_pp ){
 					console.log($(this).attr('href'));
-						$(this).click();
+						window.location = new_url[0].slice(0, -1) + '' + $(this).attr('href');
 					}
 				});	
 			}
