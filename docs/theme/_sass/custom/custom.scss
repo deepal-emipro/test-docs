@@ -44,7 +44,7 @@ blockquote {
     display: flex;
     min-height: 90px;
     align-items: center;
-    border-bottom: 1px solid #dee2e6;
+    border-bottom: 2px solid #dee2e6;
 }
 .site-logo {
     margin-left: 15px;
@@ -58,7 +58,7 @@ blockquote {
 .side-bar {
     width: 350px;
     background-color: white;
-    border-right: 1px solid #dee2e6;
+    border-right: 2px solid #dee2e6;
 }
 .main {
     max-width: 100%;
@@ -70,7 +70,7 @@ blockquote {
     position: fixed;
     width: calc((100% - 340px));
     height: 90px;
-    border-bottom: 1px solid #dee2e6;
+    border-bottom: 2px solid #dee2e6;
 }
 .ept-ug-mh-l{
 	font-size: 20px;
