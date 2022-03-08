@@ -55,18 +55,18 @@ setTimeout(function(){
 			    }
 			});
 			if(pg_cur == pg_en)
-				$('.ept_pn').css("pointer-events","none");
+				$('.ept_pn').hide();
 			else
-				$('.ept_pn').css("pointer-events","auto");
+				$('.ept_pn').show();
 			if(pg_cur == pg_st)
-				$('.ept_pp').css("pointer-events","none");
+				$('.ept_pp').hide();
 			else
-				$('.ept_pp').css("pointer-events","auto");
+				$('.ept_pp').show();
 			
 		},4000);
 		$(".ept_pp").click(function(){
 			if(pg_pp >= 0){
-				$(this).css("pointer-events","auto");
+				$(this).show();
 				$(".nav-list-link").each(function(index) {
 					if(parseInt($(this).attr('cur-pg')) === pg_pp ){
 						window.location = document.location.origin + $(this).attr('href');
@@ -74,12 +74,12 @@ setTimeout(function(){
 				});	
 			}
 			else{
-				$(this).css("pointer-events","none");
+				$(this).hide();
 			}
 		});
 		$(".ept_pn").click(function(){
 			if(pg_pn <= pg_en){
-				$(this).css("pointer-events","auto");
+				$(this).show();
 				$(".nav-list-link").each(function(index) {
 					if(parseInt($(this).attr('cur-pg')) === pg_pn ){
 						window.location = document.location.origin + $(this).attr('href');
@@ -87,7 +87,7 @@ setTimeout(function(){
 				});	
 			}
 			else{
-				$(this).css("pointer-events","none");
+				$(this).hide();
 			}
 		});
 
