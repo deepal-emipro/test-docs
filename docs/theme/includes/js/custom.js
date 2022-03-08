@@ -58,12 +58,16 @@ setTimeout(function(){
 		},4000);
 		$(".ept_pp").click(function(){
 			if(pg_pp >= 0){
+				$(this).css("pointer-events","auto");
 				$(".nav-list-link").each(function(index) {
 					console.log($(this).attr('cur-pg'));
 					if(parseInt($(this).attr('cur-pg')) === pg_pp ){
 						window.location = document.location.origin + $(this).attr('href');
 					}
 				});	
+			}
+			else{
+				$(this).css("pointer-events","none");
 			}
 			//window.location = $("#site-nav ul li:first a").attr('href');	
 		});
