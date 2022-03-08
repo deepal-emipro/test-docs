@@ -68,12 +68,12 @@ setTimeout(function(){
 			else{
 				$(this).css("pointer-events","none");
 			}
-			//window.location = $("#site-nav ul li:first a").attr('href');	
 		});
 		$(".ept_pn").click(function(){
 			if(pg_pn >= 0){
 				$(this).css("pointer-events","auto");
 				$(".nav-list-link").each(function(index) {
+					console.log($(this).attr('cur-pg') + " = "+ pg_pn);
 					if(parseInt($(this).attr('cur-pg')) === pg_pn ){
 						window.location = document.location.origin + $(this).attr('href');
 					}
