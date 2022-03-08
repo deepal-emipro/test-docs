@@ -61,7 +61,7 @@ setTimeout(function(){
 				$(".nav-list-link").each(function(index) {
 					console.log($(this).attr('cur-pg'));
 					if(parseInt($(this).attr('cur-pg')) === pg_pp ){
-
+					console.log($(this).attr('cur-pg'));
 						$(this).click();
 					}
 				});	
