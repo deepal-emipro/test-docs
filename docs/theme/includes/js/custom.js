@@ -107,13 +107,13 @@ setTimeout(function(){
 					$('.site-nav').animate({'left' : "-350px"});
 					$(this).removeClass('ept_lf_arr');
 					$(this).addClass('ept_rf_arr');
-					//$('.main').animate({'marginLeft' : "2px"});
-					//$(".main-header").css("width","calc(100% - 2px)");
+					$('.main').animate({'marginLeft' : "2px"});
+					$(".main-header").css("width","calc(100% - 2px)");
 				}
 				else
 				{
-					//$(".main-header").css("width","calc(100% - 340px)");
-					//$('.main').animate({'marginLeft' : "348px"});
+					$(".main-header").css("width","calc(100% - 340px)");
+					$('.main').animate({'marginLeft' : "348px"});
 					$('.site-nav').animate({'left' : "0px"});
 					$(this).removeClass('ept_rf_arr');		
 					$(this).addClass('ept_lf_arr');
