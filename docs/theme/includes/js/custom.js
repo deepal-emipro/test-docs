@@ -104,7 +104,7 @@ setTimeout(function(){
 		$('.ept_nav_arr').click(function(){
 			if($( window ).width() >= 1023 ){
 				if($(this).hasClass('ept_lf_arr')){
-					$('.side-bar').animate({'left' : "-350px"});
+					$('.site-nav').animate({'left' : "-350px"});
 					$(this).removeClass('ept_lf_arr');
 					$(this).addClass('ept_rf_arr');
 					$('.main').animate({'marginLeft' : "2px"});
@@ -114,7 +114,7 @@ setTimeout(function(){
 				{
 					$(".main-header").css("width","calc(100% - 340px)");
 					$('.main').animate({'marginLeft' : "348px"});
-					$('.side-bar').animate({'left' : "0px"});
+					$('.site-nav').animate({'left' : "0px"});
 					$(this).removeClass('ept_rf_arr');		
 					$(this).addClass('ept_lf_arr');
 				}
