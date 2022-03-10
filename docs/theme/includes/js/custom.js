@@ -106,8 +106,8 @@ setTimeout(function(){
 			if($( window ).width() >= 1023 ){
 				if($(this).hasClass('ept_lf_arr')){
 					$('.side-bar').animate({'left' : "-350px"});
-					$(this).removeClass('ept_lf_arr');
-					$(this).addClass('ept_rf_arr');
+					$(this).hide();
+					$('.ept_rf_arr').show();
 					$('.main').animate({'marginLeft' : "2px"});
 					$(".main-header").css("width","calc(100% - 2px)");
 				}
@@ -116,8 +116,8 @@ setTimeout(function(){
 					$(".main-header").css("width","calc(100% - 340px)");
 					$('.main').animate({'marginLeft' : "348px"});
 					$('.side-bar').animate({'left' : "0px"});
-					$(this).removeClass('ept_rf_arr');		
-					$(this).addClass('ept_lf_arr');
+					$(this).hide();		
+					$('.ept_lf_arr').show();
 				}
 				
 			}
