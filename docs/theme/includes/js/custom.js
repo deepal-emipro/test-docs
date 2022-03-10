@@ -3,8 +3,9 @@ var new_url = document.location.href.toString().split(temp_pr_version[4]);
 var pg_cur,pg_pp,pg_pn,pg_st,pg_en;
 
 setTimeout(function(){
-	document.getElementById("ept-prd-vr").value = parseInt(temp_pr_version[4].toString().replace('v',''))
-},1000);
+	//document.getElementById("ept-prd-vr").value = parseInt(temp_pr_version[4].toString().replace('v',''))
+	$('.ept-prd-vr').val(parseInt(temp_pr_version[4].toString().replace('v','')));
+},2000);
 
 setTimeout(function(){
 	$(document).ready(function() {

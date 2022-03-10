@@ -4,7 +4,7 @@
 	<div class="ept-prd-ug-text">User Guide</div>
 </div>
 <div class="float-right ept-ug-mh-r">Odoo Version
-	<select onchange="javascript:changeProductVersion(this)" id="ept-prd-vr" name="ept-prd-vr">
+	<select onchange="javascript:changeProductVersion(this)" class="ept-prd-vr">
 		{%- for version in site.product_version -%}
 			<option value="{{ version }}">{{ version }}</option>
 		{%- endfor -%}
