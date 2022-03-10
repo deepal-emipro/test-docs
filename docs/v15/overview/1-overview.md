@@ -31,3 +31,13 @@ Magento2 Odoo integration is necessary because the manual entry of data between 
 > - Go to Apps -> Update List (Please start to debug mode first otherwise it will not show this menu).
 > - Find emipro_theme_base module & Install/Upgrade that module.
 > - Install/Update a theme Clarico Vega from Website Configuration.
+
+{:.alert-error}
+>#### Note
+> **Technical Steps to Install/Update Theme Clarico Vega:**
+>
+> - Copy and paste theme_clarico_vega and emipro_theme_base code into your custom module (Add/Replace).
+> - Restart the odoo services. (Ignore if you are using Odoo.sh)
+> - Go to Apps -> Update List (Please start to debug mode first otherwise it will not show this menu).
+> - Find emipro_theme_base module & Install/Upgrade that module.
+> - Install/Update a theme Clarico Vega from Website Configuration.
