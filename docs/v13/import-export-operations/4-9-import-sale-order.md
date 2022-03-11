@@ -1,5 +1,5 @@
 This is a contant 4.9
-
+{{ page }}
 {% if page.has_children == true and page.has_toc != false %}
           <hr>
           <h2 class="text-delta">Table of contents</h2>
