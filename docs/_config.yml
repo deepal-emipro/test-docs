@@ -2,6 +2,8 @@ markdown: kramdown
 layouts_dir: /theme/layout
 logo: "theme/assets/images/ept_doc.png"
 search_enabled: false
+plugins:
+  - jekyll-redirect-from
 heading_anchors: true
 extra:
   generator: false
