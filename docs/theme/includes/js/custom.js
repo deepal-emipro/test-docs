@@ -95,7 +95,7 @@ setTimeout(function(){
 		if(temp_pr_version[5] == '' || temp_pr_version[5] == undefined)
 		{
 			// Fire nav click event once body is ready
-			window.location = $("#site-nav ul li:first a").attr('href');
+			//window.location = $("#site-nav ul li:first a").attr('href');
 		}
 		//set link in Product Name
 		var temp_pr_name_link = $(".ept_a_prd_logo").attr('href') + temp_pr_version[4];
