@@ -90,11 +90,17 @@ setTimeout(function(){
 		$(".ept_pn").click(function(){
 			if(pg_pn <= pg_en){
 				$(this).show();
-				$(".nav-list-link").each(function(index) {
+				if(new_url[1].toString().length <= 1){
+					window.location = $("#site-nav ul li:first a").attr('href');
+				}
+				else{
+					$(".nav-list-link").each(function(index) {
 					if(parseInt($(this).attr('cur-pg')) === pg_pn ){
 						window.location = document.location.origin + $(this).attr('href');
 					}
-				});	
+				});		
+				}
+				
 			}
 			else{
 				$(this).hide();
