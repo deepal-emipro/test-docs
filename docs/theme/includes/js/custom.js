@@ -89,10 +89,13 @@ setTimeout(function(){
 			console.log(pg_pn +" "+ pg_en);
 			if(pg_pn <= pg_en){
 				$(this).show();
+				console.log(new_url[1].toString().length);
 				if(new_url[1].toString().length <= 1){
+					console.log('In if Part');
 					window.location = $("#site-nav ul li:first a").attr('href');
 				}
 				else{
+					console.log('In else Part');
 					$(".nav-list-link").each(function(index) {
 					if(parseInt($(this).attr('cur-pg')) === pg_pn ){
 						window.location = document.location.origin + $(this).attr('href');
