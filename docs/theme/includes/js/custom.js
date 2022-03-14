@@ -10,6 +10,7 @@ setTimeout(function(){
 	$(".has_child.active").each(function() {
 			if($(this).find('.nav-list-link.active').attr('href') === cur_pg){
 				$(this).find('.nav-list li').each(function() {
+					console.log($(this).find('.nav-list-link.active'));
 					if($(this).find('.nav-list-link.active')){
 						$(this).find('.has_child.active ul li').each(function() {
 							console.log($(this).find('a').html());
