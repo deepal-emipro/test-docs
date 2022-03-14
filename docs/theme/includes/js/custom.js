@@ -99,6 +99,7 @@ setTimeout(function(){
 					$(".nav-list-link").each(function(index) {
 					console.log(parseInt($(this).attr('cur-pg')) +" "+ pg_pn);
 					if(parseInt($(this).attr('cur-pg')) === pg_pn ){
+						console.log('in if part' + $(this).attr('href'));
 						window.location = document.location.origin + $(this).attr('href');
 					}
 				});		
