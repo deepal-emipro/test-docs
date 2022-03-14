@@ -18,7 +18,6 @@ setTimeout(function(){
 				$(this).find('.nav-list li').each(function() {
 					if($(this).hasClass('has_child nav-list-item active')){
 						$(this).find('.nav-list li').each(function() {
-							console.log('If Part '+ $(this).find('a').html());
 							toc_data += '<li>'+
 		                			'<a href="'+ $(this).find('a').attr('href')+'">'+ $(this).find('a').html()+'</a>'+
 		              			'</li>';
@@ -26,7 +25,7 @@ setTimeout(function(){
 					}
 					else
 					{
-						console.log(has_child_attribute);
+						console.log($(this).find('a').html());
 						if(has_child_attribute == 0){
 							toc_data += '<li>'+
 		                			'<a href="'+ $(this).find('a').attr('href')+'">'+ $(this).find('a').html()+'</a>'+
