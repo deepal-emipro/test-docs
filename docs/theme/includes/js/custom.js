@@ -95,7 +95,7 @@ setTimeout(function(){
 					window.location = $("#site-nav ul li:first a").attr('href');
 				}
 				else{
-					console.log('In else Part');
+					console.log('In else Part' + pg_cur);
 					$(".nav-list-link").each(function(index) {
 					console.log(parseInt($(this).attr('cur-pg')) +" "+ pg_pn);
 					if(parseInt($(this).attr('cur-pg')) === pg_pn ){
