@@ -8,8 +8,8 @@ setTimeout(function(){
 	///
 	var cur_pg = window.location.href.toString().split(window.location.origin)[1];
 	$(".has_child.active").each(function() {
-			console.log($(this).find('nav-list-link').attr('href') +" "+ cur_pg);
-			if($(this).find('nav-list-link').attr('href') === cur_pg){
+			console.log($(this).find('.nav-list-link').attr('href') +" "+ cur_pg);
+			if($(this).find('.nav-list-link.active').attr('href') === cur_pg){
 				$('#main-content').append('<hr>'+
           			'<h2 class="text-delta">Table of contents</h2>'+
           			'<ul>'+
