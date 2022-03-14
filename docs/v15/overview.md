@@ -1,6 +1,6 @@
 ### Overview
 
-Clarico Vega is a Responsive, Clean, Modern & Sectioned Odoo eCommerce Theme. Crafted to be Pixel Perfect, it can be suitable for any kind of online store category like Furniture, Fashion, Electronics, Beauty, Health & Fitness, Jewellery, Sports etc. Clarico Vega is an Ecommerce business-oriented theme that fulfils the main feature of eCommerce.
+Magento2 Odoo integration is necessary because the manual entry of data between the two platforms is impossible after a certain level of growth, where the data becomes more significant and more complex. Our Odoo Magento2 connector app automates your vital business processes. It eliminates the need for manual data entry in Odoo by enabling bi-directional data exchange between your Magento2 and Odoo. This module saves your time by automatically & instantly synchronizing your catalogs, orders, customers, and inventory data from your online store in Magento2 to Odoo. After installing this module, there will be a rare need to login into the Magento2 admin panel for managing business operations.
 
-It is a fully responsive theme and looks equally stunning on all kinds of screens and devices. It is built with various attractive features like 10 Custom Header styles, 7 Custom Footer Styles, 16 Custom Button Styles, 6 Custom Mega Menu Layouts, Lazy Load, Load More products, Quick View, Login Popup, Price Filter, 10+ Dynamic Snippets, 115+ Designed Custom Snippets etc.
+ 
 
