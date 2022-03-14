@@ -8,10 +8,13 @@ setTimeout(function(){
 	///
 	var cur_pg = window.location.href.toString().split(window.location.origin)[1];
 	$(".has_child.active").each(function() {
+		console.log($(this).find('.has_child').length);
+		var has_child_attribute = 0;
 			if($(this).find('.nav-list-link.active').attr('href') === cur_pg){
 				$(this).find('.nav-list li').each(function() {
 					if($(this).hasClass('has_child')){
 						$(this).find('.nav-list li').each(function() {
+							has_child_attribute = 1;
 							console.log('If Part '+ $(this).find('a').html());
 							$('#main-content').append('<hr>'+
 		          			'<h2 class="text-delta">Table of contents</h2>'+
