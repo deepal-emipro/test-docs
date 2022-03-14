@@ -58,11 +58,11 @@ setTimeout(function(){
 			    	pg_cur = parseInt($("#site-nav ul li:first a").attr('cur-pg'));
 			        pg_pp = pg_cur - 1;
 			        pg_pn = pg_cur + 1;
-			        pg_st = parseInt($("#site-nav ul li:first a").attr('cur-pg'));
+			        pg_st = 0;
 			        pg_en = parseInt($("#site-nav ul li:last a").attr('cur-pg'));
 			    }
 			});
-			if( parseInt($(".nav-list-link.active").attr('cur-pg') - 1) != undefined && parseInt($(".nav-list-link.active").attr('cur-pg') - 1) == pg_en)
+			if( $(".nav-list-link.active").attr('cur-pg') != undefined && parseInt($(".nav-list-link.active").attr('cur-pg') - 1) == pg_en)
 				$('.ept_pn').hide();
 			else
 				$('.ept_pn').show();
@@ -152,7 +152,7 @@ function updatePageVariable(){
 		pg_cur = parseInt($(".nav-list-link.active").attr('cur-pg'));
     pg_pp = pg_cur - 1;
     pg_pn = pg_cur + 1;
-    pg_st = parseInt($("#site-nav ul li:first a").attr('cur-pg'));
+    pg_st = 0;//parseInt($("#site-nav ul li:first a").attr('cur-pg'));
     pg_en = parseInt($("#site-nav ul li:last a").attr('cur-pg'));
 }
 
