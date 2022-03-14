@@ -9,7 +9,7 @@ setTimeout(function(){
 	var cur_pg = window.location.href.toString().split(window.location.origin)[1];
 	$(".has_child.active").each(function() {
 			if($(this).find('.nav-list-link.active').attr('href') === cur_pg){
-				$(this).next('ul').each(function() {
+				$(this).next('.nav-list-link.active ul').each(function() {
 					console.log($(this).find('li a').html());
 				});
 				// $('#main-content').append('<hr>'+
