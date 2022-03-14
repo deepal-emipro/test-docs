@@ -17,7 +17,7 @@ setTimeout(function(){
 		          			'<h2 class="text-delta">Table of contents</h2>'+
 		          			'<ul>'+
 		              			'<li>'+
-		                			'<a href="'+ $(this).find('a').href()+'">'+ $(this).find('a').html()+'</a>'+
+		                			'<a href="'+ $(this).find('a').attr('href')+'">'+ $(this).find('a').html()+'</a>'+
 		              			'</li>'+
 		          			'</ul>');
 						});
