@@ -8,7 +8,7 @@ setTimeout(function(){
 	///
 	var cur_pg = window.location.href.toString().split(window.location.origin)[1];
 	$(".has_child.active").each(function() {
-			console.log($(this).find('.nav-list-link').attr('href') +" "+ cur_pg);
+			console.log($(this).find('.nav-list-link.active').attr('href') +" "+ cur_pg);
 			if($(this).find('.nav-list-link.active').attr('href') === cur_pg){
 				console.log('In if part');
 				// $('#main-content').append('<hr>'+
