@@ -146,7 +146,7 @@ function changeProductVersion(data){
 	window.location = temp_url + 'v'+data.value;
 }
 function updatePageVariable(){
-	if($(".nav-list-link.active").attr('cur-pg') == 'undefined')
+	if($(".nav-list-link.active").attr('cur-pg') == undefined)
 		pg_cur = 0;
 	else
 		pg_cur = parseInt($(".nav-list-link.active").attr('cur-pg'));
