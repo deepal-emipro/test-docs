@@ -86,6 +86,7 @@ setTimeout(function(){
 			}
 		});
 		$(".ept_pn").click(function(){
+			console.log(pg_pn +" "+ pg_en);
 			if(pg_pn <= pg_en){
 				$(this).show();
 				if(new_url[1].toString().length <= 1){
