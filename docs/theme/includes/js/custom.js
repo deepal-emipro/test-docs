@@ -9,7 +9,7 @@ setTimeout(function(){
 	var cur_pg = window.location.href.toString().split(window.location.origin)[1];
 	$(".has_child.active").each(function() {
 		var has_child_attribute = 0;
-		if ($(this).find('.has_child').length == 1 )
+		if ($(this).find('.has_child .nav-list-item .active').length == 1 )
 			has_child_attribute = 1;
 		else
 			has_child_attribute = 0;
