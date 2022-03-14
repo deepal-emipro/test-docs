@@ -9,10 +9,9 @@ setTimeout(function(){
 	var cur_pg = window.location.href.toString().split(window.location.origin)[1];
 	$(".has_child.active").each(function() {
 			if($(this).find('.nav-list-link.active').attr('href') === cur_pg){
-				console.log($(this).html());
-				// $(this).next('.nav-list-link.active ul').each(function() {
-				// 	console.log($(this).find('li a').html());
-				// });
+				$(this).find('.nav-list li').each(function() {
+					console.log($(this).find('a').html());
+				});
 				// $('#main-content').append('<hr>'+
     //       			'<h2 class="text-delta">Table of contents</h2>'+
     //       			'<ul>'+
