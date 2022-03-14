@@ -97,6 +97,7 @@ setTimeout(function(){
 				else{
 					console.log('In else Part');
 					$(".nav-list-link").each(function(index) {
+					console.log(parseInt($(this).attr('cur-pg')) +" "+ pg_pn);
 					if(parseInt($(this).attr('cur-pg')) === pg_pn ){
 						window.location = document.location.origin + $(this).attr('href');
 					}
