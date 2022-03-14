@@ -49,7 +49,6 @@ setTimeout(function(){
 			$( ".nav-list-link" ).each(function(index) {
 			    if($(this).hasClass('active')){
 			        pg_cur = parseInt($(this).attr("cur-pg"));
-			        console.log(pg_cur);
 			        pg_pp = pg_cur - 1;
 			        pg_pn = pg_cur + 1;
 			        pg_st = parseInt($("#site-nav ul li:first a").attr('cur-pg'));
@@ -74,6 +73,7 @@ setTimeout(function(){
 			
 		},4000);
 		$(".ept_pp").click(function(){
+			updatePageVariable();
 			if(pg_pp >= 0){
 				$(this).show();
 				$(".nav-list-link").each(function(index) {
@@ -87,6 +87,7 @@ setTimeout(function(){
 			}
 		});
 		$(".ept_pn").click(function(){
+			updatePageVariable();
 			console.log(pg_pn +" "+ pg_en);
 			if(pg_pn <= pg_en){
 				$(this).show();
@@ -145,5 +146,12 @@ function changeProductVersion(data){
 	
 	var temp_url = "{{ site.url }}{{site.baseurl }}/";
 	window.location = temp_url + 'v'+data.value;
+}
+function updatePageVariable(){
+	pg_cur = parseInt($(".nav-list-link.active").attr('cur-pg') - 1);
+    pg_pp = pg_cur - 1;
+    pg_pn = pg_cur + 1;
+    pg_st = parseInt($("#site-nav ul li:first a").attr('cur-pg'));
+    pg_en = parseInt($("#site-nav ul li:last a").attr('cur-pg'));
 }
 
