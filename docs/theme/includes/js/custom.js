@@ -62,6 +62,7 @@ setTimeout(function(){
 			        pg_en = parseInt($("#site-nav ul li:last a").attr('cur-pg'));
 			    }
 			});
+			console.log("pg_cur "+pg_cur + " pg_en "+ pg_en +" pg_st "+ pg_st);
 			if(pg_cur == pg_en)
 				$('.ept_pn').hide();
 			else
