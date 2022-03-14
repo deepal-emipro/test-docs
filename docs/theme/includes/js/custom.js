@@ -11,7 +11,7 @@ setTimeout(function(){
 			if($(this).find('.nav-list-link.active').attr('href') === cur_pg){
 				$(this).find('.nav-list li').each(function() {
 					console.log('Condition '+$(this).hasClass('.has_child.nav-list-item'));
-					console.log('Html code '+$(this).htm());
+					console.log('Html code '+$(this).html());
 					if($(this).hasClass('.has_child.nav-list-item')){
 						$(this).find('.nav-list li').each(function() {
 							console.log('If Part '+ $(this).find('a').html());
