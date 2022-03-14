@@ -62,12 +62,11 @@ setTimeout(function(){
 			        pg_en = parseInt($("#site-nav ul li:last a").attr('cur-pg'));
 			    }
 			});
-			console.log("pg_cur "+pg_cur + " pg_en "+ pg_en +" pg_st "+ pg_st);
-			if(pg_cur == pg_en)
+			if(parseInt($(".nav-list-link.active").attr('cur-pg') - 1) == pg_en)
 				$('.ept_pn').hide();
 			else
 				$('.ept_pn').show();
-			if(pg_cur == pg_st)
+			if(parseInt($(".nav-list-link.active").attr('cur-pg') - 1) == pg_st)
 				$('.ept_pp').hide();
 			else
 				$('.ept_pp').show();
