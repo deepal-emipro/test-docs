@@ -151,6 +151,7 @@ function updatePageVariable(){
 	pg_cur = parseInt($(".nav-list-link.active").attr('cur-pg') - 1);
     pg_pp = pg_cur - 1;
     pg_pn = pg_cur + 1;
+    console.log('in updatePageVariable' + pg_pn);
     pg_st = parseInt($("#site-nav ul li:first a").attr('cur-pg'));
     pg_en = parseInt($("#site-nav ul li:last a").attr('cur-pg'));
 }
