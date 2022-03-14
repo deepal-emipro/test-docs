@@ -92,13 +92,13 @@ setTimeout(function(){
 				$(this).show();
 				console.log(new_url[1].toString().length);
 				if(new_url[1].toString().length <= 1){
-					window.location = $("#site-nav ul li:first a").attr('href');
+					//window.location = $("#site-nav ul li:first a").attr('href');
 				}
 				else{
 					$(".nav-list-link").each(function(index) {
 						if(parseInt($(this).attr('cur-pg')) === pg_pn ){
 							console.log($(this).attr('cur-pg') +" "+ pg_pn);
-							window.location = document.location.origin + $(this).attr('href');
+							//window.location = document.location.origin + $(this).attr('href');
 						}
 					});		
 				}
