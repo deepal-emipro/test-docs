@@ -13,6 +13,13 @@ setTimeout(function(){
 					if($(this).hasClass('has_child')){
 						$(this).find('.nav-list li').each(function() {
 							console.log('If Part '+ $(this).find('a').html());
+							$('#main-content').append('<hr>'+
+		          			'<h2 class="text-delta">Table of contents</h2>'+
+		          			'<ul>'+
+		              			'<li>'+
+		                			'<a href="'+ $(this).find('a').href()+'">'+ $(this).find('a').html()+'</a>'+
+		              			'</li>'+
+		          			'</ul>');
 						});
 					}
 					else
@@ -21,13 +28,6 @@ setTimeout(function(){
 					}
 						
 					});
-				// $('#main-content').append('<hr>'+
-    //       			'<h2 class="text-delta">Table of contents</h2>'+
-    //       			'<ul>'+
-    //           			'<li>'+
-    //             			'<a href="#"></a>'+
-    //           			'</li>'+
-    //       			'</ul>');	
 			}
 			else
 			{
