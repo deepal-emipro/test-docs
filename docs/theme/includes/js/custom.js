@@ -96,7 +96,7 @@ setTimeout(function(){
 				else{
 					$(".nav-list-link").each(function(index) {
 						if(parseInt($(this).attr('cur-pg')) === pg_pn ){
-							console.log($(this).attr('cur-pg') ++ pg_pn);
+							console.log($(this).attr('cur-pg') +" "+ pg_pn);
 							window.location = document.location.origin + $(this).attr('href');
 						}
 					});		
