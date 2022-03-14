@@ -10,13 +10,14 @@ setTimeout(function(){
 	$(".has_child.active").each(function() {
 			console.log($(this).find('.nav-list-link').attr('href') +" "+ cur_pg);
 			if($(this).find('.nav-list-link.active').attr('href') === cur_pg){
-				$('#main-content').append('<hr>'+
-          			'<h2 class="text-delta">Table of contents</h2>'+
-          			'<ul>'+
-              			'<li>'+
-                			'<a href="#"></a>'+
-              			'</li>'+
-          			'</ul>');	
+				console.log('In if part');
+				// $('#main-content').append('<hr>'+
+    //       			'<h2 class="text-delta">Table of contents</h2>'+
+    //       			'<ul>'+
+    //           			'<li>'+
+    //             			'<a href="#"></a>'+
+    //           			'</li>'+
+    //       			'</ul>');	
 			}
 			else
 			{
