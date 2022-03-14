@@ -8,6 +8,7 @@ setTimeout(function(){
 	///
 	var cur_pg = window.location.href.toString().split(window.location.origin)[1];
 	$(".has_child.active").each(function() {
+		var toc_data = '';
 		var has_child_attribute = 0;
 		if ($(this).find('.has_child .nav-list-item .active').length == 1 )
 			has_child_attribute = 1;
@@ -18,37 +19,25 @@ setTimeout(function(){
 					if($(this).hasClass('has_child nav-list-item active')){
 						$(this).find('.nav-list li').each(function() {
 							console.log('If Part '+ $(this).find('a').html());
-							$('#main-content').append('<hr>'+
-		          			'<h2 class="text-delta">Table of contents</h2>'+
-		          			'<ul>'+
-		              			'<li>'+
+							toc_data += '<li>'+
 		                			'<a href="'+ $(this).find('a').attr('href')+'">'+ $(this).find('a').html()+'</a>'+
-		              			'</li>'+
-		          			'</ul>');
+		              			'</li>';
 						});
 					}
 					else
 					{
 						console.log(has_child_attribute);
 						if(has_child_attribute == 0){
-							$('#main-content').append('<hr>'+
-		          			'<h2 class="text-delta">Table of contents</h2>'+
-		          			'<ul>'+
-		              			'<li>'+
+							toc_data += '<li>'+
 		                			'<a href="'+ $(this).find('a').attr('href')+'">'+ $(this).find('a').html()+'</a>'+
-		              			'</li>'+
-		          			'</ul>');	
+		              			'</li>';	
 						}
 							
 					}
 						
 					});
 			}
-			else
-			{
-				console.log('in else part.');
-			}
-			
+			$('#main-content').append('<hr><h2 class="text-delta">Table of contents</h2><ul>'+toc_data +'</ul>');	
 			});
 	///
 },2000);
