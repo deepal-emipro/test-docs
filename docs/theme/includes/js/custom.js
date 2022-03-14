@@ -29,6 +29,7 @@ setTimeout(function(){
 					}
 					else
 					{
+						console.log(has_child_attribute);
 						if(has_child_attribute == 0){
 							$('#main-content').append('<hr>'+
 		          			'<h2 class="text-delta">Table of contents</h2>'+
