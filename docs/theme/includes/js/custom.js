@@ -15,7 +15,7 @@ setTimeout(function(){
 			has_child_attribute = 0;
 			if($(this).find('.nav-list-link.active').attr('href') === cur_pg){
 				$(this).find('.nav-list li').each(function() {
-					if($(this).hasClass('has_child')){
+					if($(this).hasClass('has_child nav-list-item active')){
 						$(this).find('.nav-list li').each(function() {
 							console.log('If Part '+ $(this).find('a').html());
 							$('#main-content').append('<hr>'+
