@@ -146,7 +146,10 @@ function changeProductVersion(data){
 	window.location = temp_url + 'v'+data.value;
 }
 function updatePageVariable(){
-	pg_cur = parseInt($(".nav-list-link.active").attr('cur-pg'));
+	if( parseInt($(".nav-list-link.active").attr('cur-pg')) == NaN)
+		pg_cur = 0;
+	else
+		pg_cur = parseInt($(".nav-list-link.active").attr('cur-pg')); 
     pg_pp = pg_cur - 1;
     pg_pn = pg_cur + 1;
     pg_st = parseInt($("#site-nav ul li:first a").attr('cur-pg'));
