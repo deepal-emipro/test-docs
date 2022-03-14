@@ -66,7 +66,7 @@ setTimeout(function(){
 				$('.ept_pn').hide();
 			else
 				$('.ept_pn').show();
-			if(parseInt($(".nav-list-link.active").attr('cur-pg') - 1) == pg_st)
+			if(parseInt($(".nav-list-link.active").attr('cur-pg')) == pg_st)
 				$('.ept_pp').hide();
 			else
 				$('.ept_pp').show();
@@ -88,7 +88,6 @@ setTimeout(function(){
 		});
 		$(".ept_pn").click(function(){
 			updatePageVariable();
-			console.log(pg_pn +" "+pg_en);
 			if(pg_pn <= pg_en){
 				$(this).show();
 				if(new_url[1].toString().length <= 1){
