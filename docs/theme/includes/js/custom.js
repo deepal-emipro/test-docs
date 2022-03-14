@@ -7,6 +7,10 @@ setTimeout(function(){
 	$('.ept-prd-vr').val(parseInt(temp_pr_version[4].toString().replace('v','')));
 	///
 	var cur_pg = window.location.href.toString().split(window.location.origin)[1];
+	$(".has_child").each(function() {
+			console.log($(this).next().find('nav-list-link').html());
+			//$(this).find('a').first().before('<a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a>');
+	});
 	///
 },2000);
 
