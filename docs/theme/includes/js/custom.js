@@ -88,17 +88,14 @@ setTimeout(function(){
 		});
 		$(".ept_pn").click(function(){
 			updatePageVariable();
-			console.log(pg_pn +" "+ pg_en);
 			if(pg_pn <= pg_en){
 				$(this).show();
-				console.log(new_url[1].toString().length);
 				if(new_url[1].toString().length <= 1){
 					window.location = $("#site-nav ul li:first a").attr('href');
 				}
 				else{
 					$(".nav-list-link").each(function(index) {
 						if(parseInt($(this).attr('cur-pg')) === pg_pn ){
-							console.log($(this).attr('cur-pg') +" "+ pg_pn);
 							window.location = document.location.origin + $(this).attr('href');
 						}
 					});		
@@ -148,10 +145,9 @@ function changeProductVersion(data){
 	window.location = temp_url + 'v'+data.value;
 }
 function updatePageVariable(){
-	pg_cur = parseInt($(".nav-list-link.active").attr('cur-pg') - 1);
+	pg_cur = parseInt($(".nav-list-link.active").attr('cur-pg'));
     pg_pp = pg_cur - 1;
     pg_pn = pg_cur + 1;
-    console.log('in updatePageVariable' + pg_pn);
     pg_st = parseInt($("#site-nav ul li:first a").attr('cur-pg'));
     pg_en = parseInt($("#site-nav ul li:last a").attr('cur-pg'));
 }
