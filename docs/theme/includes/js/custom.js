@@ -48,7 +48,6 @@ setTimeout(function(){
 		setTimeout(function(){
 			$( ".nav-list-link" ).each(function(index) {
 			    if($(this).hasClass('active')){
-			    	console.log(parseInt($(this).attr("cur-pg")));
 			        pg_cur = parseInt($(this).attr("cur-pg"));
 			        pg_pp = pg_cur - 1;
 			        pg_pn = pg_cur + 1;
@@ -87,19 +86,21 @@ setTimeout(function(){
 			}
 		});
 		$(".ept_pn").click(function(){
+			console.log(pg_pn +" "+ pg_en);
 			if(pg_pn <= pg_en){
 				$(this).show();
+				console.log(new_url[1].toString().length);
 				if(new_url[1].toString().length <= 1){
 					window.location = $("#site-nav ul li:first a").attr('href');
 				}
 				else{
 					$(".nav-list-link").each(function(index) {
-					if(parseInt($(this).attr('cur-pg')) === pg_pn ){
-						window.location = document.location.origin + $(this).attr('href');
-					}
-				});		
+						if(parseInt($(this).attr('cur-pg')) === pg_pn ){
+							console.log($(this).attr('cur-pg') ++ pg_pn);
+							window.location = document.location.origin + $(this).attr('href');
+						}
+					});		
 				}
-				
 			}
 			else{
 				$(this).hide();
