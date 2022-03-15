@@ -7,7 +7,8 @@ setTimeout(function(){
 	$('.ept-prd-vr').val(parseInt(temp_pr_version[4].toString().replace('v','')));
 	///
 	var cur_pg = window.location.href.toString().split(window.location.origin)[1];
-	$(".nav-list-link.active").parents('.has_child.nav-list-item.active').each(function() {
+	$(".nav-list-link.active").each(function() {
+		$(this).parents().hasClass('.has_child.nav-list-item.active').each(function() {
 		console.log($(this).html());
 		var toc_data = '';
 		var has_child_attribute = 0;
@@ -41,6 +42,7 @@ setTimeout(function(){
 			$('.ept-toc-pg ul').append(toc_data);
 			$('.ept-toc-pg').show();
 			});
+	});
 	///
 },2000);
 
