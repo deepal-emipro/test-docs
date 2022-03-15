@@ -18,9 +18,10 @@ setTimeout(function(){
 		              			'</li>';
 		              });
 					});
+				$('.ept-toc-pg ul').append(toc_data);
+				$('.ept-toc-pg').show();
 			}
-			$('.ept-toc-pg ul').append(toc_data);
-			$('.ept-toc-pg').show();
+			
 	});
 },2000);
 
