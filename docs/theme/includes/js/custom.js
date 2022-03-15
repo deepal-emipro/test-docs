@@ -38,7 +38,7 @@ setTimeout(function(){
 		              			'</li>';
 						}
 						else{
-							console.log('else part');
+							console.log('else part' + $(this).parents('li').hasClass('has_child nav-list-item'));
 							toc_data += '<li>'+
 		                			'<a href="'+ $(this).find('.nav-list-link').attr('href')+'">'+ $(this).find('.nav-list-link').html()+'</a>'+
 		              			'</li>';	
