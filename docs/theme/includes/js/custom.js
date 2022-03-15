@@ -15,13 +15,11 @@ setTimeout(function(){
 		console.log(cur_pg);
 		console.log($(this).parents('.has_child.nav-list-item.active').html());
 			if($(this).attr('href') === cur_pg){
-				$(this).parents('.has_child.nav-list-item.active').each(function() {
-					$(this).html();
-						$(this).find('.nav-list li').each(function() {
+				$(this).parents('.has_child.nav-list-item.active nav-list li').each(function() {
+					console.log($(this).html());
 							toc_data += '<li>'+
 		                			'<a href="'+ $(this).find('.nav-list-link').attr('href')+'">'+ $(this).find('.nav-list-link').html()+'</a>'+
 		              			'</li>';
-						});
 					});
 			}
 			$('.ept-toc-pg ul').append(toc_data);
