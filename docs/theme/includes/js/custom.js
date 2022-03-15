@@ -12,6 +12,8 @@ setTimeout(function(){
 		var toc_data = '';
 			if($(this).attr('href') === cur_pg){
 				if($(this).parent().hasClass('has_child')) {
+					console.log($(this).parent('.has_child.nav-list-item.active').find('.nav-list-expander').next().html());
+					console.log($(this).parents('.has_child.nav-list-item.active').find('.nav-list-expander').next().html());
 					$(this).parent('.has_child.nav-list-item.active').each(function() {
 					$(this).find('.nav-list li').each(function() { 
 							toc_data += '<li>'+
