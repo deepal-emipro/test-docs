@@ -15,7 +15,7 @@ setTimeout(function(){
 		console.log(cur_pg +' '+ cur_pg.toString().length);
 			if($(this).attr('href') === cur_pg){
 				console.log('If part');
-				$(this).parents('.has_child.nav-list-item.active nav-list li').each(function() {
+				$(this).parents('.has_child.nav-list-item.active .nav-list li').each(function() {
 					console.log($(this).html());
 							toc_data += '<li>'+
 		                			'<a href="'+ $(this).find('.nav-list-link').attr('href')+'">'+ $(this).find('.nav-list-link').html()+'</a>'+
