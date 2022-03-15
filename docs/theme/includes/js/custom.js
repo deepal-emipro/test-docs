@@ -29,6 +29,7 @@ setTimeout(function(){
 				//
 				if($(this).parent().hasClass('has_child')) {
 					$(this).parent('.has_child.nav-list-item.active').each(function() {
+						console.log($(this).find('.nav-list li').html());
 					$(this).find('.nav-list li').each(function() {
 						if($(this).find('.nav-list-link').parent('li').hasClass('has_child') == false) {
 							toc_data += '<li>'+
