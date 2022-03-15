@@ -32,11 +32,13 @@ setTimeout(function(){
 					$(this).find('.nav-list li').each(function() { 
 						console.log($(this).html());
 						if($(this).find('.nav-list-link').parent('li').hasClass('has_child') == false) {
+							console.log('if part');
 							toc_data += '<li>'+
 		                			'<a href="'+ $(this).find('.nav-list-link').attr('href')+'">'+ $(this).find('.nav-list-link').html()+'</a>'+
 		              			'</li>';
 						}
 						else{
+							console.log('else part');
 							toc_data += '<li>'+
 		                			'<a href="'+ $(this).find('.nav-list-link').attr('href')+'">'+ $(this).find('.nav-list-link').html()+'</a>'+
 		              			'</li>';	
