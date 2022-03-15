@@ -16,7 +16,6 @@ setTimeout(function(){
 					$(".breadcrumb-nav-list").append(
 						'<li class="breadcrumb-nav-list-item"><a href="'+ $(this).parents('.has_child.nav-list-item.active').find('.nav-list-expander').next().attr('href')+'">'+ $(this).parents('.has_child.nav-list-item.active').find('.nav-list-expander').next().html()+'</a></li>'+
 						'<li class="breadcrumb-nav-list-item"><a href="'+$(this).attr('href')+'">'+ $(this).html()+'</a></li>');
-					);
 					$(this).parent('.has_child.nav-list-item.active').each(function() {
 					$(this).find('.nav-list li').each(function() { 
 							toc_data += '<li>'+
