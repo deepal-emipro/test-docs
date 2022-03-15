@@ -11,17 +11,18 @@ setTimeout(function(){
 		$('.ept-toc-pg ul').append('');
 		var toc_data = '';
 			if($(this).attr('href') === cur_pg){
-				$(this).parent('.has_child.nav-list-item.active').each(function() {
+				if($(this).parent().hasClass('has_child')) {
+					$(this).parent('.has_child.nav-list-item.active').each(function() {
 					$(this).find('.nav-list li').each(function() { 
 							toc_data += '<li>'+
 		                			'<a href="'+ $(this).find('.nav-list-link').attr('href')+'">'+ $(this).find('.nav-list-link').html()+'</a>'+
 		              			'</li>';
 		              });
 					});
-				$('.ept-toc-pg ul').append(toc_data);
-				$('.ept-toc-pg').show();
+					$('.ept-toc-pg ul').append(toc_data);
+					$('.ept-toc-pg').show();
+				}
 			}
-			
 	});
 },2000);
 
