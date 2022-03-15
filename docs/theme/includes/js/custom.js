@@ -9,12 +9,13 @@ setTimeout(function(){
 	var cur_pg = window.location.href.toString().split(window.location.origin)[1];
 	$(".nav-list-link.active").each(function() {
 		//$(this).parents().hasClass('.has_child.nav-list-item.active').each(function() {
-		console.log($(this).html());
+		$('.ept-toc-pg ul').append('');
 		var toc_data = '';
 		console.log($(this).attr('href'));
 		console.log(cur_pg);
 			if($(this).attr('href') === cur_pg){
 				$(this).parents('.has_child.nav-list-item.active').each(function() {
+					$(this).html();
 						$(this).find('.nav-list li').each(function() {
 							toc_data += '<li>'+
 		                			'<a href="'+ $(this).find('.nav-list-link').attr('href')+'">'+ $(this).find('.nav-list-link').html()+'</a>'+
