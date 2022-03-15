@@ -11,32 +11,15 @@ setTimeout(function(){
 		//$(this).parents().hasClass('.has_child.nav-list-item.active').each(function() {
 		console.log($(this).html());
 		var toc_data = '';
-		var has_child_attribute = 0;
-		if ($(this).find('.has_child .nav-list-item .active').length == 1 )
-			has_child_attribute = 1;
-		else
-			has_child_attribute = 0;
-		console.log($(this).find('.nav-list-link.active').attr('href'));
+		console.log($(this).attr('href'));
 		console.log(cur_pg);
-			if($(this).find('.nav-list-link.active').attr('href') === cur_pg){
-				$(this).find('.nav-list li').each(function() {
-					if($(this).hasClass('has_child nav-list-item active')){
+			if($(this).attr('href') === cur_pg){
+				$(this).parents('.has_child.nav-list-item.active').each(function() {
 						$(this).find('.nav-list li').each(function() {
 							toc_data += '<li>'+
 		                			'<a href="'+ $(this).find('.nav-list-link').attr('href')+'">'+ $(this).find('.nav-list-link').html()+'</a>'+
 		              			'</li>';
 						});
-					}
-					else
-					{
-						if(has_child_attribute == 0){
-							toc_data += '<li>'+
-		                			'<a href="'+ $(this).find('.nav-list-link').attr('href')+'">'+ $(this).find('.nav-list-link').html()+'</a>'+
-		              			'</li>';	
-						}
-							
-					}
-						
 					});
 			}
 			$('.ept-toc-pg ul').append(toc_data);
