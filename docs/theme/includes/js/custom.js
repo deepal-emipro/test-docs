@@ -38,7 +38,7 @@ setTimeout(function(){
 					});
 			}
 			$('.ept-toc-pg ul').append(toc_data);
-			$('.ept-toc-pg ul').show();
+			$('.ept-toc-pg').show();
 			});
 	///
 },2000);
