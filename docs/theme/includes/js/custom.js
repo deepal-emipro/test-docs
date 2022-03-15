@@ -15,7 +15,8 @@ setTimeout(function(){
 				if($(this).parent().hasClass('has_child')) {
 					$(".breadcrumb-nav-list").append(
 						'<li class="breadcrumb-nav-list-item"><a href="'+ $(this).parents('.has_child.nav-list-item.active').find('.nav-list-expander').next().attr('href')+'">'+ $(this).parents('.has_child.nav-list-item.active').find('.nav-list-expander').next().html()+'</a></li>'+
-						'<li class="breadcrumb-nav-list-item"><a href="'+$(this).attr('href')+'">'+ $(this).html()+'</a></li>');
+						'<li class="breadcrumb-nav-list-item"><span>'+ $(this).html()+'</span></li>');
+					$('.ept-breadcrumb-nav').show();
 					$(this).parent('.has_child.nav-list-item.active').each(function() {
 					$(this).find('.nav-list li').each(function() { 
 							toc_data += '<li>'+
