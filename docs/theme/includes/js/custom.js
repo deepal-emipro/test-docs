@@ -13,8 +13,10 @@ setTimeout(function(){
 			if($(this).attr('href') === cur_pg){
 				console.log('Test data.' + $(this).parent().hasClass('has_child'));
 				if($(this).parent().hasClass('has_child')) {
-					console.log('Parent'+$(this).html());
-					console.log('Grand Parent'+$(this).parents('.has_child.nav-list-item.active').find('.nav-list-expander').next().html());
+					$(".breadcrumb-nav-list").append(
+						'<li class="breadcrumb-nav-list-item"><a href="'+ $(this).parents('.has_child.nav-list-item.active').find('.nav-list-expander').next().attr('href')+'">'+ $(this).parents('.has_child.nav-list-item.active').find('.nav-list-expander').next().html()+'</a></li>'+
+						'<li class="breadcrumb-nav-list-item"><a href="'+$(this).attr('href')+'">'+ $(this).html()+'</a></li>'+
+					);
 					$(this).parent('.has_child.nav-list-item.active').each(function() {
 					$(this).find('.nav-list li').each(function() { 
 							toc_data += '<li>'+
