@@ -11,10 +11,10 @@ setTimeout(function(){
 		//$(this).parents().hasClass('.has_child.nav-list-item.active').each(function() {
 		$('.ept-toc-pg ul').append('');
 		var toc_data = '';
-		console.log($(this).attr('href'));
-		console.log(cur_pg);
-		console.log($(this).parents('.has_child.nav-list-item.active').html());
+		console.log($(this).attr('href') +' '+ $(this).attr('href').toString().length);
+		console.log(cur_pg +' '+ cur_pg.toString().length);
 			if($(this).attr('href') === cur_pg){
+				console.log('If part');
 				$(this).parents('.has_child.nav-list-item.active nav-list li').each(function() {
 					console.log($(this).html());
 							toc_data += '<li>'+
