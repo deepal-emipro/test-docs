@@ -11,7 +11,7 @@ setTimeout(function(){
 		$('.ept-toc-pg ul').append('');
 		var toc_data = '';
 			if($(this).attr('href') === cur_pg){
-				console.log('Test data.');
+				console.log('Test data.' + $(this).parent().hasClass('has_child'));
 				if($(this).parent().hasClass('has_child')) {
 					console.log('test' + $(this).html());
 					console.log($(this).parent('.has_child.nav-list-item.active').html());
