@@ -15,11 +15,12 @@ setTimeout(function(){
 			has_child_attribute = 1;
 		else
 			has_child_attribute = 0;
+		console.log($(this).find('.nav-list-link.active').attr('href'));
+		console.log(cur_pg);
 			if($(this).find('.nav-list-link.active').attr('href') === cur_pg){
 				$(this).find('.nav-list li').each(function() {
 					if($(this).hasClass('has_child nav-list-item active')){
 						$(this).find('.nav-list li').each(function() {
-							console.log('If part');
 							toc_data += '<li>'+
 		                			'<a href="'+ $(this).find('.nav-list-link').attr('href')+'">'+ $(this).find('.nav-list-link').html()+'</a>'+
 		              			'</li>';
@@ -27,7 +28,6 @@ setTimeout(function(){
 					}
 					else
 					{
-						console.log('In else part '+$(this).find('.nav-list-link').html());
 						if(has_child_attribute == 0){
 							toc_data += '<li>'+
 		                			'<a href="'+ $(this).find('.nav-list-link').attr('href')+'">'+ $(this).find('.nav-list-link').html()+'</a>'+
