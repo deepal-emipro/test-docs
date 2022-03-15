@@ -11,15 +11,14 @@ setTimeout(function(){
 		//$(this).parents().hasClass('.has_child.nav-list-item.active').each(function() {
 		$('.ept-toc-pg ul').append('');
 		var toc_data = '';
-		console.log($(this).attr('href') +' '+ $(this).attr('href').toString().length);
-		console.log(cur_pg +' '+ cur_pg.toString().length);
 			if($(this).attr('href') === cur_pg){
-				console.log('If part');
-				$(this).parents('.has_child.nav-list-item.active .nav-list li').each(function() {
-					console.log($(this).html());
+				$(this).parents('.has_child.nav-list-item.active').each(function() {
+					$(this).find('.nav-list li')each(function() { 
+							console.log($(this).find('.nav-list-link').attr('href'));
 							toc_data += '<li>'+
 		                			'<a href="'+ $(this).find('.nav-list-link').attr('href')+'">'+ $(this).find('.nav-list-link').html()+'</a>'+
 		              			'</li>';
+		              });
 					});
 			}
 			$('.ept-toc-pg ul').append(toc_data);
