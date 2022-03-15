@@ -10,6 +10,7 @@ setTimeout(function(){
 	$(".has_child.active").each(function() {
 		var toc_data = '';
 		var has_child_attribute = 0;
+		console.log($(this).find('.has_child .nav-list-item .active').length);
 		if ($(this).find('.has_child .nav-list-item .active').length == 1 )
 			has_child_attribute = 1;
 		else
