@@ -26,7 +26,7 @@ setTimeout(function(){
 					}
 					else
 					{
-						console.log('In else part '+$(this).find('a nav-list-link').html());
+						console.log('In else part '+$(this).find('a [class="nav-list-link"]').html());
 						if(has_child_attribute == 0){
 							toc_data += '<li>'+
 		                			'<a href="'+ $(this).find('a').attr('href')+'">'+ $(this).find('a').html()+'</a>'+
