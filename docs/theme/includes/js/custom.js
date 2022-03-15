@@ -37,7 +37,8 @@ setTimeout(function(){
 						
 					});
 			}
-			$('#main-content').append('<hr><h2 class="text-delta">Table of contents</h2><ul>'+toc_data +'</ul>');	
+			$('.ept-toc-pg ul').append(toc_data);
+			$('.ept-toc-pg ul').show();
 			});
 	///
 },2000);
