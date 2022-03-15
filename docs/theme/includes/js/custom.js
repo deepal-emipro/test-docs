@@ -30,10 +30,16 @@ setTimeout(function(){
 				if($(this).parent().hasClass('has_child')) {
 					$(this).parent('.has_child.nav-list-item.active').each(function() {
 					$(this).find('.nav-list li').each(function() { 
+						console.log($(this).find('.nav-list-link').parent('li').hasClass('has_child'));
 						if($(this).find('.nav-list-link').parent('li').hasClass('has_child') == false) {
 							toc_data += '<li>'+
 		                			'<a href="'+ $(this).find('.nav-list-link').attr('href')+'">'+ $(this).find('.nav-list-link').html()+'</a>'+
 		              			'</li>';
+						}
+						else{
+							toc_data += '<li>'+
+		                			'<a href="'+ $(this).find('.nav-list-link').attr('href')+'">'+ $(this).find('.nav-list-link').html()+'</a>'+
+		              			'</li>';	
 						}
 		              });
 					});
