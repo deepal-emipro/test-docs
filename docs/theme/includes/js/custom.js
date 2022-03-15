@@ -8,7 +8,7 @@ setTimeout(function(){
 	///
 	var cur_pg = window.location.href.toString().split(window.location.origin)[1];
 	$(".nav-list-link.active").parents('.has_child.nav-list-item.active').each(function() {
-		$(this).html();
+		console.log($(this).html());
 		var toc_data = '';
 		var has_child_attribute = 0;
 		if ($(this).find('.has_child .nav-list-item .active').length == 1 )
