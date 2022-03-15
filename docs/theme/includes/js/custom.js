@@ -13,6 +13,7 @@ setTimeout(function(){
 		var toc_data = '';
 		console.log($(this).attr('href'));
 		console.log(cur_pg);
+		console.log($(this).parents('.has_child.nav-list-item.active').html());
 			if($(this).attr('href') === cur_pg){
 				$(this).parents('.has_child.nav-list-item.active').each(function() {
 					$(this).html();
