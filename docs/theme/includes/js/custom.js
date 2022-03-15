@@ -29,7 +29,7 @@ setTimeout(function(){
 				//
 				if($(this).parent().hasClass('has_child')) {
 					$(this).parent('.has_child.nav-list-item.active').each(function() {
-					$(this).find('.nav-list li').each(function() {
+					$(this).find('.has_child .nav-list-item .active .nav-list li').each(function() {
 						if($(this).find('.nav-list-link').parent('li').hasClass('has_child') == false) {
 							toc_data += '<li>'+
 		                			'<a href="'+ $(this).find('.nav-list-link').attr('href')+'">'+ $(this).find('.nav-list-link').html()+'</a>'+
