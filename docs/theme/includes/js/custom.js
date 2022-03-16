@@ -26,6 +26,12 @@ setTimeout(function(){
 							'<li class="breadcrumb-nav-list-item"><span>'+ $(this).html()+'</span></li>');
 							$('.ept-breadcrumb-nav').show();	
 						}
+						else{
+							$(".breadcrumb-nav-list").append(
+							'<li class="breadcrumb-nav-list-item"><a href="'+ document.location.origin + $(this).attr('href') +'">Home</a></li>'+
+							'<li class="breadcrumb-nav-list-item"><span>'+ $(this).html()+'</span></li>');
+							$('.ept-breadcrumb-nav').show();
+						}
 					}
 					else if($('.nav-list-link.active').parents('.has_child.nav-list-item.active').length == 2){
 							$(".breadcrumb-nav-list").append(
