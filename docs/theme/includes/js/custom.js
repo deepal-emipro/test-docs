@@ -138,6 +138,7 @@ setTimeout(function(){
 				});	
 			}
 			else{
+				window.location = new_url[0] + temp_pr_version[4] ;
 				$(this).hide();
 			}
 		});
