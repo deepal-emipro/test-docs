@@ -40,9 +40,9 @@ setTimeout(function(){
 						}
 						else{
 							console.log('Else' + $(this).html());
-							toc_data += '<li>'+
-		                			'<a href="'+ $(this).find('.nav-list-link').attr('href')+'">'+ $(this).find('.nav-list-link').html()+'</a>'+
-		              			'</li>';	
+							// toc_data += '<li>'+
+		     //            			'<a href="'+ $(this).find('.nav-list-link').attr('href')+'">'+ $(this).find('.nav-list-link').html()+'</a>'+
+		     //          			'</li>';	
 						}
 		              });
 					});
