@@ -14,12 +14,14 @@ setTimeout(function(){
 				//Bredcrumb process
 				$('.nav-list-link.active').parents('.has_child.nav-list-item.active').length
 					if($('.nav-list-link.active').parents('.has_child.nav-list-item.active').length == 1){
+						console.log('length 1');
 							$(".breadcrumb-nav-list").append(
 							'<li class="breadcrumb-nav-list-item"><a href="'+ $(this).parents('.has_child.nav-list-item.active').find('.nav-list-expander').next().attr('href')+'">'+ $(this).parents('.has_child.nav-list-item.active').find('.nav-list-expander').next().html()+'</a></li>'+
 							'<li class="breadcrumb-nav-list-item"><span>'+ $(this).html()+'</span></li>');
 							$('.ept-breadcrumb-nav').show();
 					}
 					else if($('.nav-list-link.active').parents('.has_child.nav-list-item.active').length == 2){
+							console.log('length 2');
 							$(".breadcrumb-nav-list").append(
 							'<li class="breadcrumb-nav-list-item"><a href="'+ $(this).parents('.has_child.nav-list-item.active').find('.nav-list-expander').next().attr('href')+'">'+ $(this).parents('.has_child.nav-list-item.active').find('.nav-list-expander').next().html()+'</a></li>'+
 							'<li class="breadcrumb-nav-list-item"><a href="'+ $(this).parent('.has_child.nav-list-item.active').find('.nav-list-expander').next().attr('href')+'">'+ $(this).parent('.has_child.nav-list-item.active').find('.nav-list-expander').next().html()+'</a></li>'+
