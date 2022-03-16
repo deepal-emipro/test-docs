@@ -14,28 +14,29 @@ setTimeout(function(){
 				//Bredcrumb process
 					if($('.nav-list-link.active').parents('.has_child.nav-list-item.active').length == 0){
 							$(".breadcrumb-nav-list").append(
-							'<li class="breadcrumb-nav-list-item"><a href="'+ document.location.origin + $(this).attr('href') +'">Home</a></li>'+
+							'<li class="breadcrumb-nav-list-item"><a href="'+ new_url[0] + temp_pr_version[4] +'">Home</a></li>'+
 							'<li class="breadcrumb-nav-list-item"><span>'+ $(this).html()+'</span></li>');
 							$('.ept-breadcrumb-nav').show();
 					}
 					else if($('.nav-list-link.active').parents('.has_child.nav-list-item.active').length == 1){
 						if($(".nav-list-link.active").prev().is('.nav-list-expander') == false){
 							$(".breadcrumb-nav-list").append(
-							'<li class="breadcrumb-nav-list-item"><a href="'+ document.location.origin + $(this).attr('href') +'">Home</a></li>'+
+							'<li class="breadcrumb-nav-list-item"><a href="'+ new_url[0] + temp_pr_version[4] +'">Home</a></li>'+
 							'<li class="breadcrumb-nav-list-item"><a href="'+ $(this).parents('.has_child.nav-list-item.active').find('.nav-list-expander').next().attr('href')+'">'+ $(this).parents('.has_child.nav-list-item.active').find('.nav-list-expander').next().html()+'</a></li>'+
 							'<li class="breadcrumb-nav-list-item"><span>'+ $(this).html()+'</span></li>');
 							$('.ept-breadcrumb-nav').show();	
 						}
 						else{
 							$(".breadcrumb-nav-list").append(
-							'<li class="breadcrumb-nav-list-item"><a href="'+ document.location.origin + $(this).attr('href') +'">Home</a></li>'+
+							'<li class="breadcrumb-nav-list-item"><a href="'+ new_url[0] + temp_pr_version[4] +'">Home</a></li>'+
 							'<li class="breadcrumb-nav-list-item"><span>'+ $(this).html()+'</span></li>');
 							$('.ept-breadcrumb-nav').show();
 						}
 					}
 					else if($('.nav-list-link.active').parents('.has_child.nav-list-item.active').length == 2){
 							$(".breadcrumb-nav-list").append(
-							'<li class="breadcrumb-nav-list-item"><a href="'+ document.location.origin + $(this).attr('href') +'">Home</a></li>'+
+								
+							'<li class="breadcrumb-nav-list-item"><a href="'+ new_url[0] + temp_pr_version[4] +'">Home</a></li>'+
 							'<li class="breadcrumb-nav-list-item"><a href="'+ $(this).parents('.has_child.nav-list-item.active').find('.nav-list-expander').next().attr('href')+'">'+ $(this).parents('.has_child.nav-list-item.active').find('.nav-list-expander').next().html()+'</a></li>');
 							if($('.nav-list-link.active').prev().hasClass('nav-list-expander') != true)
 							{
