@@ -130,6 +130,7 @@ setTimeout(function(){
 			if(pg_pp >= 0){
 				$(this).show();
 				$(".nav-list-link").each(function(index) {
+					console.log(parseInt($(this).attr('cur-pg')) + " " + pg_pp);
 					if(parseInt($(this).attr('cur-pg')) === pg_pp ){
 						window.location = document.location.origin + $(this).attr('href');
 					}
