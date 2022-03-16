@@ -32,9 +32,11 @@ setTimeout(function(){
 					$(this).find('.nav-list li').each(function() {
 						if($(this).find('.nav-list-link').parent('li').hasClass('has_child') == false) {
 							console.log('If' + $(this).parent('.nav-list-expander').parent('.has_child.nav-list-item').html());
-							toc_data += '<li>'+
+							if($(this).parent('.nav-list-expander').parent('.has_child.nav-list-item') == undefined){
+								toc_data += '<li>'+
 		                			'<a href="'+ $(this).find('.nav-list-link').attr('href')+'">'+ $(this).find('.nav-list-link').html()+'</a>'+
-		              			'</li>';
+		              			'</li>';	
+							}
 						}
 						else{
 							console.log('Else' + $(this).html());
