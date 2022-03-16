@@ -14,7 +14,7 @@ setTimeout(function(){
 				//Bredcrumb process
 					
 					if($('.nav-list-link.active').parents('.has_child.nav-list-item.active').length == 1){
-						if($(".nav-list-link.active").prev().is('li') != false){
+						if($(".nav-list-link.active").prev().is('.nav-list-expander') != false){
 							$(".breadcrumb-nav-list").append(
 							'<li class="breadcrumb-nav-list-item"><a href="'+ $(this).parents('.has_child.nav-list-item.active').find('.nav-list-expander').next().attr('href')+'">'+ $(this).parents('.has_child.nav-list-item.active').find('.nav-list-expander').next().html()+'</a></li>'+
 							'<li class="breadcrumb-nav-list-item"><span>'+ $(this).html()+'</span></li>');
