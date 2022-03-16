@@ -24,7 +24,7 @@ setTimeout(function(){
 							console.log('length 2');
 							$(".breadcrumb-nav-list").append(
 							'<li class="breadcrumb-nav-list-item"><a href="'+ $(this).parents('.has_child.nav-list-item.active').find('.nav-list-expander').next().attr('href')+'">'+ $(this).parents('.has_child.nav-list-item.active').find('.nav-list-expander').next().html()+'</a></li>'+
-							'<li class="breadcrumb-nav-list-item"><a href="'+ $(this).parent('.has_child.nav-list-item.active').find('.nav-list-expander').next().attr('href')+'">'+ $(this).parent('.has_child.nav-list-item.active').find('.nav-list-expander').next().html()+'</a></li>'+
+							'<li class="breadcrumb-nav-list-item"><a href="'+ $(this).parents('.nav-list').prev().attr('href')+'">'+ $(this).parents('.nav-list').prev().html()+'</a></li>'+
 							'<li class="breadcrumb-nav-list-item"><span>'+ $(this).html()+'</span></li>');
 							$('.ept-breadcrumb-nav').show();
 					}
