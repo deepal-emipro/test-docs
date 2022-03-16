@@ -1,6 +1,17 @@
-html {
-    scrollbar-color: #6969dd #e0e0e0;
-    scrollbar-width: thin;
+html::-webkit-scrollbar {
+  width: 20px;
+}
+
+html::-webkit-scrollbar-track {
+  background-color: #e4e4e4;
+  border-radius: 100px;
+}
+
+html::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+  border: 5px solid transparent;
+  background-clip: content-box;
+  background-color: #8070d4;
 }
 .main-content a{white-space: initial;}
 a:not([class]){background-image: initial;}
