@@ -127,6 +127,7 @@ setTimeout(function(){
 		},4000);
 		$(".ept_pp").click(function(){
 			updatePageVariable();
+			console.log(pg_pp);
 			if(pg_pp >= 0){
 				$(this).show();
 				$(".nav-list-link").each(function(index) {
