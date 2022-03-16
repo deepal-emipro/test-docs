@@ -114,10 +114,15 @@ setTimeout(function(){
 				$('.ept_pn').hide();
 			else
 				$('.ept_pn').show();
-			if(parseInt($(".nav-list-link.active").attr('cur-pg')) == -1)
-				$('.ept_pp').hide();
+			if(parseInt($(".nav-list-link.active").attr('cur-pg')) != NaN) {
+				if(parseInt($(".nav-list-link.active").attr('cur-pg')) <= 0 && 
+					$('.ept_pp').hide();
+				else
+					$('.ept_pp').show();	
+			}
 			else
-				$('.ept_pp').show();
+				$('.ept_pp').hide();
+			
 			
 		},4000);
 		$(".ept_pp").click(function(){
