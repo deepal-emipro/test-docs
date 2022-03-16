@@ -16,7 +16,7 @@ setTimeout(function(){
 					if($('.nav-list-link.active').parents('.has_child.nav-list-item.active').length == 1){
 						console.log($('.nav-list-link.active').parents('.has_child.nav-list-item.active').length);
 						console.log($(".nav-list-link.active").prev().is('.nav-list-expander'));
-						if($(".nav-list-link.active").prev().is('.nav-list-expander') == true){
+						if($(".nav-list-link.active").prev().is('.nav-list-expander') == false){
 							$(".breadcrumb-nav-list").append(
 							'<li class="breadcrumb-nav-list-item"><a href="'+ $(this).parents('.has_child.nav-list-item.active').find('.nav-list-expander').next().attr('href')+'">'+ $(this).parents('.has_child.nav-list-item.active').find('.nav-list-expander').next().html()+'</a></li>'+
 							'<li class="breadcrumb-nav-list-item"><span>'+ $(this).html()+'</span></li>');
