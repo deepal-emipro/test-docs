@@ -114,7 +114,7 @@ setTimeout(function(){
 				$('.ept_pn').hide();
 			else
 				$('.ept_pn').show();
-			if(parseInt($(".nav-list-link.active").attr('cur-pg')) == pg_st)
+			if(parseInt($(".nav-list-link.active").attr('cur-pg')) == -1)
 				$('.ept_pp').hide();
 			else
 				$('.ept_pp').show();
