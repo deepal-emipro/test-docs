@@ -12,7 +12,7 @@ setTimeout(function(){
 		var toc_data = '';
 			if($(this).attr('href') === cur_pg){
 				//Bredcrumb process
-					if($('.nav-list-link.active').parents('.has_child.nav-list-item.active').length == 1){
+					if($('.nav-list-link.active').parents('.has_child.nav-list-item.active').length == 0){
 							$(".breadcrumb-nav-list").append(
 							'<li class="breadcrumb-nav-list-item"><a href="'+ document.location.origin + $(this).attr('href') +'">Home</a></li>'+
 							'<li class="breadcrumb-nav-list-item"><span>'+ $(this).html()+'</span></li>');
