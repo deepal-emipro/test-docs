@@ -1,9 +1,13 @@
+a:not([class]):hover {
+    background-image: linear-gradient(rgba(114,83,237,0.45) 0%, rgba(114,83,237,0.45) 100%);
+    background-size: 1px 1px;
+}
 #site-nav::-webkit-scrollbar,html::-webkit-scrollbar {
   width: 5px;
 }
 #site-nav::-webkit-scrollbar-thumb,html::-webkit-scrollbar-thumb {
   background-clip: content-box;
-  background-color: #087DDA;
+  background-color: #0762da;
 }
 .nav-list .nav-list-item>.nav-list .nav-list-item .nav-list-link {
     color: #087DDA;
