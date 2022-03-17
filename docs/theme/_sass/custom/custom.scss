@@ -1,6 +1,7 @@
 a:not([class]):hover {
-    background-image: linear-gradient(rgba(114,83,237,0.45) 0%, rgba(114,83,237,0.45) 100%);
+    background-image: initial;
     background-size: 1px 1px;
+    color: #0762da;
 }
 #site-nav::-webkit-scrollbar,html::-webkit-scrollbar {
   width: 5px;
