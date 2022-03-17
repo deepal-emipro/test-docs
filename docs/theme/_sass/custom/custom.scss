@@ -48,7 +48,7 @@ a:not([class]){background-image: initial;}
 .ept-cust-mb-sb-header{display: none;}
 .ept-cust-dt-sb-header {display: block;}
 #main-header .ept-ug-mh-l,#main-header .ept-ug-mh-r{display: block;}
-a {
+a,.nav-list .nav-list-item>.nav-list .nav-list-item .nav-list-link {
     color: #282f33;
     text-decoration: none;
 }
