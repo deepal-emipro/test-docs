@@ -1,17 +1,12 @@
 #site-nav::-webkit-scrollbar,html::-webkit-scrollbar {
-  width: 8px;
+  width: 5px;
 }
-
-#site-nav::-webkit-scrollbar-track,html::-webkit-scrollbar-track {
-  background-color: #e4e4e4;
-  border-radius: 100px;
-}
-
 #site-nav::-webkit-scrollbar-thumb,html::-webkit-scrollbar-thumb {
-  border-radius: 100px;
-  border: 0px solid transparent;
   background-clip: content-box;
   background-color: #087DDA;
+}
+.nav-list .nav-list-item>.nav-list .nav-list-item .nav-list-link {
+    color: #087DDA;
 }
 .main-content a{white-space: initial;}
 a:not([class]){background-image: initial;}
@@ -54,7 +49,7 @@ a:not([class]){background-image: initial;}
 .ept-cust-dt-sb-header {display: block;}
 #main-header .ept-ug-mh-l,#main-header .ept-ug-mh-r{display: block;}
 a {
-    color: #087DDA;
+    color: #282f33;
     text-decoration: none;
 }
 @if variable-exists(product_logo) {
