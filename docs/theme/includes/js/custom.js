@@ -13,6 +13,7 @@ setTimeout(function(){
 			if($(this).attr('href') === cur_pg){
 				//Bredcrumb process
 					if($('.nav-list-link.active').parents('.has_child.nav-list-item.active').length == 0){
+						console.log('Test '+$(this).html());
 							$(".breadcrumb-nav-list").append(
 							'<li class="breadcrumb-nav-list-item"><a href="'+ new_url[0] + temp_pr_version[4] +'">Home</a></li>'+
 							'<li class="breadcrumb-nav-list-item"><span>'+ $(this).html()+'</span></li>');
@@ -129,13 +130,16 @@ setTimeout(function(){
 			else
 				$('.ept_pn').show();
 			if($(".nav-list-link.active").attr('cur-pg') != 'undefined') {
+				console.log('In if part');
 				if(parseInt($(".nav-list-link.active").attr('cur-pg')) < 0 )
 					$('.ept_pp').hide();
 				else
 					$('.ept_pp').show();	
 			}
-			else
+			else{
+				console.log('In else part');
 				$('.ept_pp').hide();
+			}
 			
 			
 		},4000);
