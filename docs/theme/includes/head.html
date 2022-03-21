@@ -1,7 +1,9 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-
+  {% if page.url == "/404.html" %}
+    <meta http-equiv="refresh" content="5; url=/">
+  {% endif %}
   {% unless site.plugins contains "jekyll-seo-tag" %}
   {% if page.title != nil %}
     <title>{{ page.title }} - {{ site.product_name }} By Emipro</title>
