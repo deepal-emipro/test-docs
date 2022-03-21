@@ -1,3 +1,4 @@
+.text-delta{font-weight: 600;}
 option:hover {
     background-color: #0762da !important;
 }
@@ -16,7 +17,7 @@ a:not([class]):hover {
 }
 #site-nav::-webkit-scrollbar-thumb,html::-webkit-scrollbar-thumb {
   background-clip: content-box;
-  background-color: #0762da;
+  background-color: #087DDA;
 }
 .nav-list .nav-list-item>.nav-list .nav-list-item .nav-list-link {
     color: #087DDA;
@@ -46,7 +47,7 @@ a:not([class]){background-image: initial;}
     display:none;
     background: url('../images/ar.png');
     position: absolute;
-    top: 100px;
+    top: 105px;
     left: 2px;
     cursor: pointer;
     width: 15px;
@@ -141,7 +142,7 @@ blockquote {
 .ept_lf_arr,.ept_rf_arr{display: none;}
 .ept-prd-ug-text{display: none;}
 .ept-ug-mh-r{position: absolute;right: 40px;margin-top: -3px;}
-.ept-ug-mh-r select{padding: 0px;font-size: 13px;border:0px;margin-top: 7px;}
+.ept-ug-mh-r select{padding: 0px;font-size: 13px;border:0px;}
 .icon {color: #087DDA;}
 body{font-size: 16px;}
 .site-header{min-height: 50px;}
