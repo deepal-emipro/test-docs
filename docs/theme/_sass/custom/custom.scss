@@ -1,3 +1,4 @@
+#main-content p{color: #212529;}
 a:not([class]):hover {
     background-image: initial;
     background-size: 1px 1px;
@@ -123,7 +124,7 @@ blockquote {
 	padding-left: 1rem;
 }
 .ept-ug-mh-r{padding-right: 2rem;padding-top: 14px;font-size: 15px;}
-.ept-ug-mh-r select{padding: 0px;border-radius: 10px;background: #fff;border:0px;color: #5c5962;}
+.ept-ug-mh-r select{padding: 0px;border-radius: 10px;background: #fff;border:0px;color: #5c5962;margin-left: -5px;}
 @media (min-width: 1900px){
 	.main-header{
 		width: calc((93% - 340px));
