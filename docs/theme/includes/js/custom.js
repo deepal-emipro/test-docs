@@ -129,15 +129,13 @@ setTimeout(function(){
 				$('.ept_pn').hide();
 			else
 				$('.ept_pn').show();
-			if($(".nav-list-link.active").attr('cur-pg') != 'undefined') {
-				console.log('In if part');
+			if($(".nav-list-link.active").attr('cur-pg') != undefined) {
 				if(parseInt($(".nav-list-link.active").attr('cur-pg')) < 0 )
 					$('.ept_pp').hide();
 				else
 					$('.ept_pp').show();	
 			}
 			else{
-				console.log('In else part');
 				$('.ept_pp').hide();
 			}
 			
@@ -145,11 +143,9 @@ setTimeout(function(){
 		},4000);
 		$(".ept_pp").click(function(){
 			updatePageVariable();
-			console.log(pg_pp);
 			if(pg_pp >= 0){
 				$(this).show();
 				$(".nav-list-link").each(function(index) {
-					console.log(parseInt($(this).attr('cur-pg')) + " " + pg_pp);
 					if(parseInt($(this).attr('cur-pg')) === pg_pp ){
 						window.location = document.location.origin + $(this).attr('href');
 					}
