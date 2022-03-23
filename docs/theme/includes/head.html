@@ -30,6 +30,16 @@
     </script>
 
   {% endif %}
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26090214-12"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26090214-12');
+</script>
   
   {% if site.search_enabled != false %}
     <script type="text/javascript" src="{{ 'theme/assets/js/vendor/lunr.min.js' | relative_url }}"></script>
