@@ -68,7 +68,7 @@ setTimeout(function(){
 			}
 			else
 			{
-				console.log('In else part.')
+				//console.log('In else part.')
 			}
 	});
 },2000);
@@ -213,9 +213,7 @@ setTimeout(function(){
 },1000);
 
 function changeProductVersion(data){
-	
-	var temp_url = "{{ site.url }}{{site.baseurl }}/";
-	window.location = temp_url + 'v'+data.value;
+	window.location = new_url[0] + 'v'+data.value;
 }
 function updatePageVariable(){
 	if($(".nav-list-link.active").attr('cur-pg') == undefined)
