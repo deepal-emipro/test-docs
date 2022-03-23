@@ -1,5 +1,4 @@
 markdown: kramdown
-baseurl: ""
 layouts_dir: /theme/layout
 logo: "theme/assets/images/ept_doc.png"
 search_enabled: false
