@@ -213,6 +213,7 @@ setTimeout(function(){
 },1000);
 
 function changeProductVersion(data){
+	
 	window.location = new_url[0] + 'v'+data.value;
 }
 function updatePageVariable(){

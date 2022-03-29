@@ -4,5 +4,8 @@ Odoo eBay Integration is absolute, especially if you are a seller on eBay Market
 
 Moreover, this connector automates your vital business processes and eliminates the need for manual data entry in Odoo by enabling bi-directional data exchange between eBay Marketplace and Odoo. Also, this module saves your time by instantly entering item and inventory data from your Odoo instance into eBay and automatically imports eBay orders and customer data into Odoo. After the installation of our module, there is no more need to log in to your eBay account to make updates to your data. 
 
+{% include youtube.html id=cmYWRLxd87o %}
+
+
  
 
