@@ -1,2 +1,0 @@
-### Setup & Configure eBay Sellers
-

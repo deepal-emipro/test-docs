@@ -1,2 +1,0 @@
-### eBay Site Configuration
-
