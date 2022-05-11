@@ -191,3 +191,58 @@ body{font-size: 16px;}
 	}
 }
 
+.ept_div_pp{
+	margin-bottom: 30px;
+	font-size: 18px;
+	margin-left: 50px;
+	margin-right: 50px;	
+}
+
+.ept_pp{
+	margin-right: 10px;
+	position: relative;	
+}
+
+.prev_arrow{
+	position: absolute;
+	width: 22%;
+	left: -17px;
+	bottom: 1px;	
+}
+
+.ept_pn{
+position: relative;	
+}
+
+.next_arrow{
+	position: absolute;
+	width: 23%;
+	bottom: 1px;
+	margin-left: 6px;	
+}
+
+.orange_button{
+	float: right;
+	margin-right: 10px;
+}
+
+.button_need_support_orange{
+	position: relative;
+	font-weight: 600;
+	background-color: #f58700;
+	border:0;background-size: 100%;
+	color: #fff !important;
+	border-radius: 100px;/* 
+	padding: 1.1rem 3rem !important; */line-height: 158% !important; 
+	margin-top: 2px;
+	border-right: 2px solid transparent;
+	border-left: 2px solid transparent;
+	padding: 20px 20px 20px 55px;	
+}
+
+.headphone{
+	width: 30px;
+	left: 13px;
+	top: 13px;
+	position: absolute;	
+}
