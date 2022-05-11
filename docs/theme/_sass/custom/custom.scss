@@ -66,6 +66,30 @@ a,.nav-list .nav-list-item>.nav-list .nav-list-item .nav-list-link {
     color: #282f33;
     text-decoration: none;
 }
+.ept-ug-mh-r{
+	margin-right: 70px;
+	padding-top: 8px;
+}
+
+.contact_us_button{
+margin-left: 20px;
+}
+
+.button_contact_us_blue{
+	position: relative;
+	font-weight: 600;
+	background-color: #084bda;
+	background-size: 100%;
+	color: #fff !important;
+	border-radius: 100px;
+	padding: 0.8rem 2rem !important;
+	line-height: 158% !important; 
+	margin-top: 2px;
+	border-right: 2px solid transparent;
+	border-left: 2px solid transparent;
+}
+
+
 @if variable-exists(product_logo) {
   .ept-prd-logo {
     width: 70px;
@@ -166,3 +190,4 @@ body{font-size: 16px;}
 	    width: calc((100% - 0px));
 	}
 }
+
