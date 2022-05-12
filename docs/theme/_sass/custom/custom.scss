@@ -84,7 +84,7 @@ margin-left: 20px;
 	background-size: 100%;
 	color: #fff !important;
 	border-radius: 100px;
-	padding: 0.8rem 2rem !important;
+	padding: 20px 35px 20px 35px;
 	line-height: 158% !important; 
 	margin-top: 2px;
 	border-right: 2px solid transparent;
@@ -122,6 +122,8 @@ margin-left: 20px;
     background-image: linear-gradient(to bottom, #087DDA 0, #083FDA);
     border-radius: 30px;
 }
+
+@keyframes a{to{-webkit-transform:rotate(60deg) translate(1em,-14em); transform:rotate(60deg) translate(1em,-14em);}}
 
 
 @if variable-exists(product_logo) {
