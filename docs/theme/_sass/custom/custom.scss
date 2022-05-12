@@ -12,6 +12,7 @@ a:not([class]):hover {
     background-size: 1px 1px;
     color: #0762da;
 }
+
 #site-nav::-webkit-scrollbar,html::-webkit-scrollbar {
   width: 5px;
 }
@@ -169,7 +170,7 @@ blockquote {
 @media (max-width: 1023px){
 .ept_lf_arr,.ept_rf_arr{display: none;}
 .ept-prd-ug-text{display: none;}
-.ept-ug-mh-r{position: absolute;right: 40px;margin-top: -3px;}
+.ept-ug-mh-r{position: absolute;right: 40px;margin-top: 3px;margin-right:0;}
 .ept-ug-mh-r select{padding: 0px;font-size: 13px;border:0px;}
 .icon {color: #087DDA;}
 body{font-size: 16px;}
