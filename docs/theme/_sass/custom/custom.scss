@@ -98,9 +98,12 @@ margin-left: 20px;
 	    bottom: 0;
 	    left: 0;
 	    content: ""; 
+	-webkit-transform: rotate(60deg) translate(-5em, 7.5em);
 	    transform: rotate(60deg) translate(-5em, 7.5em);
+	-webkit-animation: a .9s forwards;
 	    animation: a .9s forwards;
 	    opacity: .7;
+	background: -webkit-linear-gradient(top, hsla(21, 63%, 73%, 0), hsla(0, 0%, 100%, .5) 50%, hsla(21, 63%, 73%, 0));
 	    background: linear-gradient(180deg, hsla(21, 63%, 73%, 0), hsla(0, 0%, 100%, .5) 50%, hsla(21, 63%, 73%, 0));
 	    border-radius: 30px;
 }
