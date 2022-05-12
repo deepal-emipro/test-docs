@@ -198,9 +198,23 @@ body{font-size: 16px;}
 
 .ept_div_pp{
 	margin-bottom: 30px;
-	font-size: 18px;
+	font-size: 20px;
 	margin-left: 50px;
-	margin-right: 50px;	
+	margin-right: 20px;	
+}
+
+@media (max-width: 426px){
+.ept_div_pp{
+	position: absolute;
+    	left: 28.5%;
+	}
+	
+.orange_button{
+	position: absolute;
+   	left: 26%;
+   	bottom: -40px;
+	}
+	
 }
 
 .ept_pp{
@@ -227,6 +241,7 @@ position: relative;
 }
 
 .orange_button{
+	margin-bottom: 40px;
 	float: right;
 	margin-right: 10px;
 }
