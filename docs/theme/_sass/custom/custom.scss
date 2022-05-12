@@ -84,14 +84,15 @@ margin-left: 20px;
 	background-size: 100%;
 	color: #fff !important;
 	border-radius: 100px;
-	padding: 20px 35px 20px 35px !important;
+	padding: 19px 30px 19px 30px !important;
 	line-height: 158% !important; 
 	margin-top: 2px;
 	border-right: 2px solid transparent;
 	border-left: 2px solid transparent;
 }
 
-.button_contact_us_blue:hover:after {
+.button_contact_us_blue:hover:after,
+.button_need_support_orange:hover:after{
     position: absolute;
     top: -50%;
     right: -50%;
@@ -108,11 +109,13 @@ margin-left: 20px;
 @keyframes a{to{-webkit-transform:rotate(60deg) translate(1em,-14em); transform:rotate(60deg) translate(1em,-14em);}}
 
 
-.button_contact_us_blue:hover:before {
+.button_contact_us_blue:hover:before,
+.button_need_support_orange:hover:before{
     opacity: 1;
 }
 
-.button_contact_us_blue:before {
+.button_contact_us_blue:before,
+.button_need_support_orange:before{
     position: absolute;
     z-index: -100;
     top: 0;
