@@ -338,11 +338,14 @@ position: relative;
     top: 10px;
     position: absolute; 
 }
-/*.search-input-wrap{
-    width: 70px !important;
+.search-input-wrap{
+    width: 450px !important;
     max-width: initial !important;
     right: 0px;
-}*/
+}
 .search-active .search-overlay{
     opacity: 0;
+}
+.search-active .search-input-wrap {
+    width: 450px !important;
 }
