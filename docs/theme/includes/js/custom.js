@@ -214,8 +214,7 @@ setTimeout(function(){
 
 function changeProductVersion(data){
 	
-	var temp_url = "{{ site.url }}{{site.baseurl }}/";
-	window.location = temp_url + 'v'+data.value;
+	window.location = new_url[0] + 'v'+data.value;
 }
 function updatePageVariable(){
 	if($(".nav-list-link.active").attr('cur-pg') == undefined)

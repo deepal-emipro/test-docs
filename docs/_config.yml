@@ -12,10 +12,9 @@ keep_files:
   - /theme/asset/
 env:
   - THEME_DIR: /theme
-token: ${{ secrets.GH_PAT }}
-product_name: "Shipstation"
+product_name: "Theme Clarico Vega"
 product_logo: "logo.png"
 product_version:
  - 15
  - 14
-
+ - 13
