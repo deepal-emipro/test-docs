@@ -1,3 +1,9 @@
+
+<div class="float-left ept-ug-mh-l">
+	<a href="{{ '/' | absolute_url }}" class="ept_a_prd_logo"><div class="ept-prd-logo"></div></a>
+	<div class="ept-prd-name">{{ site.product_name }}</div>
+	<div class="ept-prd-ug-text">User Guide</div>
+</div>
 {% if site.search_enabled != false %}
         <div class="search">
           <div class="search-input-wrap">
@@ -7,11 +13,6 @@
           <div id="search-results" class="search-results"></div>
         </div>
       {% endif %}
-<div class="float-left ept-ug-mh-l">
-	<a href="{{ '/' | absolute_url }}" class="ept_a_prd_logo"><div class="ept-prd-logo"></div></a>
-	<div class="ept-prd-name">{{ site.product_name }}</div>
-	<div class="ept-prd-ug-text">User Guide</div>
-</div>
 <div class="float-right ept-ug-mh-r">Odoo Version
 	<select onchange="javascript:changeProductVersion(this)" class="ept-prd-vr">
 		{%- for version in site.product_version -%}
