@@ -1,7 +1,7 @@
 markdown: kramdown
 layouts_dir: /theme/layout
 logo: "theme/assets/images/ept_doc.png"
-search_enabled: true
+search_enabled: false
 heading_anchors: true
 extra:
   generator: false
@@ -15,6 +15,7 @@ env:
 product_name: "Theme Clarico Vega"
 product_logo: "logo.png"
 product_version:
+ - 16
  - 15
  - 14
  - 13
