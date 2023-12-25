@@ -29,18 +29,15 @@ Only this field will show up if you have chosen the Specific category under Cate
 #### 3. Mega menu Style:
 You may choose any one of the six styles based on your preferences. 
 
-![](./images/dmm3.png)
-
 You may view the outcome on the website after saving the menu.
 
-![](./images/dmm4.png)
+![](./images/dmm3.png)
+
 
 {:.alert-warning}
 >#### Note
 > **Dynamic mega menu functionality will be compatible with on hover option.**
 >
-
-![](./images/dmm5.png)
 
 #### Category Menu Labels
 
@@ -48,20 +45,19 @@ You may view the outcome on the website after saving the menu.
  - Navigate to **Websites>Configurations>Menu Labels** in the Admin panel to activate the Menu label feature.
 
 
-
 * **Step 1:** Create a new Menu Label
 
-![](./images/dmm6.png)
+![](./images/dmm4.png)
 
 * **Step 2:** Navigate to Configuration > E-commerce categories > Choose any category to add a menu label to. The **menu label** field to choose from the list of potential menu labels is shown.
 
 
-![](./images/dmm7.png)
+![](./images/dmm5.png)
 
 * **Step 3:** By inputting the label's name and selecting **create and edit,** you can also create a new menu label from the eCommerce category.
 
 
-![](./images/dmm8.png)
+![](./images/dmm6.png)
 
 * **Step 4:** Based on the requirements, choose the background and text colours of the constructed menu label.
 
