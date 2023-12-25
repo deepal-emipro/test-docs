@@ -17,3 +17,4 @@ is_index: True
   - [Product Return & Shipping Info](product-page/product-return-and-shipping-info.md)
   - [Dynamic Product Tabs](product-page/dynamic-product-tabs.md)
   - [Documentation Tab](product-page/documentation-tab-on-product-page.md)
+  - [Offer Timer](product-page/offer-timer.md)
