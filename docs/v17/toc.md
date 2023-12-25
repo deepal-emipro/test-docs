@@ -27,3 +27,7 @@ is_index: True
   - [Product Color Variants](shop-page/product-color-variants.md)
   - [Collapse Filter](shop-page/collapse-filter.md)
   - [See All Option In Product Variant](shop-page/see-all.md)
+- {: .has_child} [Brand Management](brand-management.md)
+  - [Product Brand](brand-management/product-brand.md)
+  - [Product Brands Listing Page](brand-management/product-brands-listing-page.md)
+  - [Brand Builder](brand-management/brand-builder.md)
