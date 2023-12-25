@@ -12,7 +12,7 @@ How to make the menu stand out:
 * **Step 1:** Select any menu on a website and click it to add the highlighted menu. This is how to make a highlighted menu.
 
 
-![](./images/hlm1.png)
+![](./images/hlm2.png)
 
 
 * Step 2: choose the Is Highlight Menu item. 
@@ -20,13 +20,9 @@ How to make the menu stand out:
  This option sets the menu item to be highlighted when it is selected.
 
 
-![](./images/hlm2.png)
-
-
 ![](./images/hlm1.png)
 
 Please uncheck the Is Highlight Menu option if you would like to remove this highlighted menu.
-
 
 
 {:.alert-warning} 

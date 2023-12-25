@@ -56,13 +56,8 @@ You may view the outcome on the website after saving the menu.
 
 * **Step 3:** By inputting the label's name and selecting **create and edit,** you can also create a new menu label from the eCommerce category.
 
-
-![](./images/dmm6.png)
-
 * **Step 4:** Based on the requirements, choose the background and text colours of the constructed menu label.
-
-![](./images/dmm9.png)
 
 * **Step 5:** The website's menu labels for the categories listed below will be visible.
 
-![](./images/dmm10.png)
+![](./images/dmm6.png)
