@@ -50,3 +50,6 @@ is_index: True
 - [Hotspot](hotspot.md)
 - [Out Of Stock](out-of-stock.md)
 - [Allow selected countries for order checkout](allow-selected-countries-for-order-checkout.md)
+- [Display Product Prices on the Website](display-product-prices-on-the-website.md)
+- [Category Builder](category-builder.md)
+- [Change Footer Style](change-footer-style.md)
