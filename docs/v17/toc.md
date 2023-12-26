@@ -31,3 +31,6 @@ is_index: True
   - [Product Brand](brand-management/product-brand.md)
   - [Product Brands Listing Page](brand-management/product-brands-listing-page.md)
   - [Brand Builder](brand-management/brand-builder.md)
+- {: .has_child} [Product Filter](product-filter.md)
+  - [Product Count](product-filter/product-count.md)
+  - [Attribute Swatches with Tooltip](product-filter/attribute-swatches-with-tooltip.md)
