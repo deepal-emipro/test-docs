@@ -33,6 +33,7 @@ is_index: True
   - [Collapse Filter](shop-page/collapse-filter.md)
   - [See All Option In Product Variant](shop-page/see-all.md)
   - [Offer Banner](shop-page/offer-banner.md)
+  - [Stock Indicator](shop-page/stock-indicator.md)
 - {: .has_child} [Brand Management](brand-management.md)
   - [Product Brand](brand-management/product-brand.md)
   - [Product Brands Listing Page](brand-management/product-brands-listing-page.md)
