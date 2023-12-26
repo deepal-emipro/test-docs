@@ -13,7 +13,7 @@
 2. Turn on the display of out-of-stock products option, then check the shop page.
 
 
-![](./images/Out-of-stock-filter_1.png)
+![](./images/ofsins.png)
 
 **Show Stock Filter on Shop Page**
 

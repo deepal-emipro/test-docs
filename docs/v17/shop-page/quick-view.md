@@ -9,7 +9,7 @@ The Quick view symbol appears in the New product slider, all offer snippets, and
 Open Website Editor from the website and select the Clarico Vega option to activate Quick View. The Quick View option is available, as seen in the picture below. Save the modifications and enable that option.
 
 
-![](./images/qv1.png)
+![](./images/qvu1.png)
 
 
 ![](./images/qv2.png)

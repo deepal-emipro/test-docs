@@ -10,7 +10,7 @@ This feature places the **Add to Cart** button and the **Buy Now** option at the
 Open Website Editor from the website and choose the **Clarico Vega** option to enable Sticky Product Details. The Sticky Product Details option is available, as seen in the screenshot below. Save the modifications and enable that option.
 
 
-![](./images/spd1.png)
+![](./images/spdu1.png)
 
 
  

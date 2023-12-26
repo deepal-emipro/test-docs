@@ -12,13 +12,13 @@ Open Website Editor from the website and choose **Clarico Vega** to activate the
  
 
 
-![](./images/lp1.png)
+![](./images/psup1.png)
 
 
  
 
 
-![](./images/lp2.png)
+![](./images/lp1.png)
 
 
 

@@ -15,7 +15,7 @@ You must set a pricelist before you can specify the offer timer. Verify that the
 As seen in the picture above, the Offer timer is visible on the Product page.
 
 
-![](./images/ot2.jpg)
+![](./images/ot2.png)
 
 
 

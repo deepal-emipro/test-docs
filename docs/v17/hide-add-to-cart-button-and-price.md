@@ -7,7 +7,7 @@ You may manage price visibility on any product and category page by using the Hi
 * To activate or deactivate Configuration **website -> Configuration -> websites -> Select website -> Theme Clarico Vega Tab**
 
 
-![](./images/hap1.jpg)
+![](./images/hacb1.png)
 
 * There are 3 settings, as follows: Hide Add to Cart (B2B):
 **Hide Add to Cart (B2B)**

@@ -13,6 +13,8 @@ The product attribute filter will be filled with a maximum of five attribute val
 
 ![](./images/sa1.png)
 
+![](./images/sau1.png)
+
 
 
 

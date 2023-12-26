@@ -9,7 +9,7 @@
 
 1. Navigate to eCommerce -> Website App. In accordance with the illustration below, click Pricelists and then the Configuration Tab.
 
-![](./images/Tax_price.png)
+![](./images/dppw.png)
 
 2. Any option under DISPLAY PRODUCT PRICES ON WEBSITE is available for selection.
 

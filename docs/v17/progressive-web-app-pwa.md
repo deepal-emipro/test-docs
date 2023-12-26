@@ -24,7 +24,7 @@ We must set up a few things in the Odoo for your website to function as native a
  
 
 
-![](./images/37-1.png)
+![](./images/pwai1.png)
 
 
 ## **Add To Home**
