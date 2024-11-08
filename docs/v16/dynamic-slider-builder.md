@@ -1,5 +1,0 @@
-### Dynamic Slider Builder
-
-
-
-

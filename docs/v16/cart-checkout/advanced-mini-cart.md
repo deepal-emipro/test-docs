@@ -12,13 +12,13 @@ This feature allows the customer to remove the product from the cart, increase/d
 Advanced Mini Cart
 
 
-![](./images/22-2.png)
+![](./images/22-2.jpg)
 
 
 Normal Mini Cart
 
 
-![](./images/22-3.png)
+![](./images/22-3.jpg)
 
 
  

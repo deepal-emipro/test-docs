@@ -14,19 +14,18 @@
 > 
 
 
-![](./images/oos1.png)
+![](./images/oos1.jpg)
 
 * After that, you will be able to enter a text that you want to display if the product is not in stock.
 
-![](./images/oos2.png)
+![](./images/oos1.jpg)
 
 * You can also able to do the translation of that text by clicking on the language short code.
 
-![](./images/oos3.png)
 
 * The message will appear on the image of the particular product in which there is no quantity available.
 
-![](./images/oos4.jpg)
+![](./images/oos2.png)
 
 
 

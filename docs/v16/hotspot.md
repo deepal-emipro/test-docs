@@ -6,54 +6,75 @@
 Hotspot providing the functionality to showcasing the products section with various options to directly add to the cart. Also, provide an option to highlight the offers on a separate page.
 
 
-![](./images/49-1.png)
+![](./images/1.png)
 
 
-To configure Hotspot - Go to the webpage where you want to configure the Hotspot. Click on the ‘Edit’ button from the top right & drop the “Banner With Product Slider” or “Full Image” snippet Here we drop “Banner With Product Slider” snippet and select the image and click on “Configure Hotspot”, Popup window will open as shown below screenshot.
+To configure Hotspot - Go to the webpage where you want to configure the Hotspot. Click on the ‘Edit’ button from the top right & drop any below snippets as below:
+
+Dynamic Snippets:
+    - Banner With Product Slider
+    - Product builder with banner
+Sliders
+    - Style 1
+    - Style 2
+    - Full Screen 2
 
 
-![](./images/49-2.png)
+* Choose any product image that you want in the respective snippet.
+* After selecting that image, Toggle the Hotspot setting to On from the Editor options in the lower right corner.
 
+![](./images/2.png)
 
- 
+* You can configure Hotspot settings like color, shape, animation, and hotspot action by clicking Hotspot in the image.
 
+![](./images/3.png)
 
-![](./images/49-3.png)
+* **Hotspot Action Type:** Set any hotspot action from the drop-down selection per your need. Based on the selection the following input will display to configure the page URL or product.
 
+![](./images/4.png)
 
-Hotspot configuration option selected by default on a popup window with this option you can configure below sub-option.
+**Hotspot Action**
+<<<<<<< HEAD
+	* **Redirect URL:** Your Url, Open in a new window(Toggle button)
 
+	![](./images/10.png)
+	* **Redirect on the product:** Select any product you wish to display on the hotspot and enter the product URL in the following input field.
+	* **Display basic product card:** Select any product you wish to display on the hotspot.
+	* **Display advanced product card:** Select any product you wish to display on the hotspot.
 
-* Hotspot Action type: Set on click or on hover to trigger hotspot an action.By default hotspot action trigger on click.
-* Hotspot Action: Set any hotspot action from the drop-down selection as per your need. Based on selection next input will display to configure the page URL or product
+* **Hotspot Color:** Set any color for the hotspot you wish to display.
+* **Hotspot Shape:** Set any hotspot shape from the Editor options in the lower right corner to suit your overall theme layout.
 
+![](./images/5.png)
 
-Click on “Hotspot UI Configuration” to configure the layout options. Also, Get a preview of the layout on a dummy image as shown below screenshot.  
+* **Hotspot Animation:** Set hotspot animation between Fade and Blink.
 
- 
+![](./images/6.png)
 
+=======
 
-![](./images/49-4.png)
+* **Redirect URL:** Your Url, Open in a new window(Toggle button)
 
+![](./images/10.png)
+* **Redirect on the product:** Select any product you wish to display on the hotspot and enter the product URL in the following input field.
+* **Display basic product card:** Select any product you wish to display on the hotspot.
+* **Display advanced product card:** Select any product you wish to display on the hotspot.
 
- 
+* **Hotspot Color:** Set any color for the hotspot you wish to display.
+* **Hotspot Shape:** Set any hotspot shape from the Editor options in the lower right corner to suit your overall theme layout.
 
+![](./images/5.png)
 
-* Hotspot Shape: Set any hotspot shape from the drop-down selection which suits you as per your overall theme layout.
-* Hotspot Color: Pick any hotspot color from the color picker and set which suits you as per your overall theme layout
-* Hotspot Animation: Set any hotspot animation from the drop-down selection which suits you as per your overall theme layout.
+* **Hotspot Animation:** Set hotspot animation between Fade and Blink.
 
+![](./images/6.png)
 
-Finally, Save your Configuration by clicking on the Save button, You will get a hotspot on a banner image at the center position you can select & drag to set a hotspot on any position on the banner image.
+>>>>>>> 6835358fbab3db92f74eec8829c9c73ac3e94878
+* By clicking the Hotspot and selecting the **Duplicate** symbol from the Editor options in the lower right corner, you may add as many Hotspots as you like based on your products in the image.
 
+![](./images/8.png)
 
-To edit hotspot configuration, Again select hotspot and click on  “Configure Hotspot” button and you will get old per fill configuration.
+* A hotspot can be placed anywhere within the image.
+* Finally, save your configuration by clicking the **Save button.** A Hotspot will appear on an image.
 
-
- 
-
-
-![](./images/49-5.png)
-
-
-
+All the above settings will be displayed in the **Editor options.**

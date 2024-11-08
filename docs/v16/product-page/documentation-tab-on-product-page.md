@@ -12,24 +12,24 @@ This feature allows you to provide the below-listed functionality to your custom
 
 * **Step 1:** Go to Website > Products > Product Documents where you can see the list of documents as per the below screenshot. From that view, you can create a new document by uploading a file or a URL.
 
-![](./images/pdt1.png)
+![](./images/pdt1.jpg)
 
 * **Step 2:** Open any document, You can see the smart button at the top right of the form view named **Products**. Once you click on that button, one wizard will be displayed where you can select single or multiple products and click on the Save button.
 
-![](./images/pdt2.png)
+![](./images/pdt2.jpg)
 
-![](./images/pdt3.png)
+![](./images/pdt3.jpg)
 
 * **Step 3:** Once you save this change, the document will be assigned to all the selected products. Also, you can do the same process inside the Product form view.
 
-![](./images/pdt4.png)
+![](./images/pdt4.jpg)
 
 **When we click on Add line below wizard will be open.**
 
-![](./images/pdt6.png)
+![](./images/pdt6.jpg)
 
 **After the completion of this process, you can see the documents on the product page as below.**
 
-![](./images/pdt5.png)
+![](./images/pdt5.jpg)
 
 

@@ -9,7 +9,7 @@ Progressive Web Apps (PWA) is an app built from web technologies but with a feel
 ### **Configurations**
 
 
-To make your website work like native apps via PWA, we need to configure certain things in the Odoo. Navigate to Website / Configurations / Settings and go to Emipro Website PWA section. You will come across various fields.
+To make your website work like native apps via PWA, we need to configure certain things in the Odoo. Navigate to Website / Configurations / websites and select any website and go to PWA section. You will come across various fields.
 
 
 * PWA: Enable the checkbox to make your Odoo Website ready to work like a native app.

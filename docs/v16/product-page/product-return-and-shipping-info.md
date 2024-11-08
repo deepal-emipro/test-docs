@@ -12,7 +12,7 @@ In the Product page, you can see the return & shipping related information as pe
 In order to update the text or icons, open the website editor from top right 'Edit' button & update the text as per your need. In case of the icons, double click on that specific icon and choose the new one as per your need as shown as below screenshot. Save the changes & review it.
 
 
-![](./images/42-2.png)
+![](./images/42-2.jpg)
 
 
 

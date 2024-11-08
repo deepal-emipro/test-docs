@@ -7,7 +7,7 @@
 * **Configuration of Swatches:** In order to configure the Swatches, go to Attributes in the Backend and open the record of Attribute. Upload the Icon image as pe the the below screenshot & save the changes.
 
 
-![](./images/41-1.png)
+![](./images/41-1.jpg)
 
 
  

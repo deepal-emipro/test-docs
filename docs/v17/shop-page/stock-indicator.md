@@ -21,5 +21,5 @@ The "Stock Indicator" feature provides valuable insights into product availabili
 
 This feature is designed to optimize the customer experience, allowing them to make informed decisions based on real-time stock information. It serves as a proactive tool for managing inventory and maintaining customer satisfaction.
 
-
+![](./images/sam1.png)
 

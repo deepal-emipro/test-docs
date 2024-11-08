@@ -12,7 +12,7 @@ To enable/disable the Lazy Load functionality, go to **Website / Configuration /
  
 
 
-![](./images/27-1.png)
+![](./images/27-1.jpg)
 
 
  
@@ -27,7 +27,7 @@ Users can apply Lazy load on the Shop page, all the styles of Product slider & O
  
 
 
-![](./images/27-2.png)
+![](./images/27-2.jpg)
 
 
 

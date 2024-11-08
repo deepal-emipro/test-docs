@@ -12,7 +12,7 @@ To enable/disable the Infinite scroll/ Load More functionality, Go to the backen
  
 
 
-![](./images/26-1.png)
+![](./images/26-1.jpg)
 
 
  
@@ -25,7 +25,7 @@ There are two types of product loading functionality:
 2. Button- on click button
 
 
-![](./images/26-2.png)You can set the Load More image in the website and that image will be applied at the time of Load More functionality.
+![](./images/26-2.jpg)You can set the Load More image in the website and that image will be applied at the time of Load More functionality.
 
 
 

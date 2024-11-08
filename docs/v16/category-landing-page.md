@@ -20,7 +20,7 @@ Steps to configure Category Landing Page:
  
 
 
-![](./images/30-1.png)
+![](./images/30-1.jpg)
 
 
  
@@ -32,7 +32,7 @@ Steps to configure Category Landing Page:
  
 
 
-![](./images/30-2.png)
+![](./images/30-2.jpg)
 
 
  

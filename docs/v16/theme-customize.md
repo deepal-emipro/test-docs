@@ -12,7 +12,7 @@ In the theme customize section, you can manage colours, layout, navbar, fonts an
 As per the above screenshot, in the Clarico Vega tab, you can see all the theme features configuration options.
 
 
-![](./images/32-2.png)
+![](./images/32-2.jpg)
 
 
 As per the above screenshot, in the Option tab, you can see all the default theme features.

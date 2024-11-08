@@ -15,6 +15,7 @@ env:
 product_name: "Theme Clarico Vega"
 product_logo: "logo.png"
 product_version:
+ - 18
  - 17
  - 16
  - 15

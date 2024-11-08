@@ -18,7 +18,7 @@ To enable Log In & Sign Up popup, open Website Editor from the Website & click o
  
 
 
-![](./images/28-2.png)
+![](./images/28-2.jpg)
 
 
 

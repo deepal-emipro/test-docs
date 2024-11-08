@@ -11,7 +11,7 @@
 
 * After enabling this feature you can see the **Color Variants In shop page**.
 
-![](./images/cv2.jpg)
+![](./images/cv2.png)
 
 {:.alert-warning} 
 > 

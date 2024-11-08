@@ -9,7 +9,7 @@
  
 
 
-![](./images/4-1.png)
+![](./images/4-1.jpg)
 
 
 
