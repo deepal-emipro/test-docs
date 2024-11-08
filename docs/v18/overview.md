@@ -4,3 +4,6 @@ Clarico Vega is a Responsive, Clean, Modern & Sectioned Odoo eCommerce Theme. Cr
 
 This theme is entirely responsive and looks amazing across a wide range of displays and gadgets. It is designed with many eye-catching features, such as Quick View, Load More goods, Lazy Load, Three Custom Header Styles, Seven Custom Button Styles, Six Custom Mega Menu Layouts, etc.
 
+
+
+
