@@ -25,12 +25,12 @@ You may manage price visibility on any product and category page by using the Hi
 
 * Before
 
-![](./images/hap5.jpg)
+![](./images/hap5.png)
 
 
 * After
 
-![](./images/hap4.jpg)
+![](./images/hap4.png)
 
 **Display message**
 * If this option is enabled, a message will appear for the guest user; if not, no message will appear.
@@ -40,7 +40,7 @@ You may manage price visibility on any product and category page by using the Hi
 
 * After
 
-![](./images/hap4.jpg)
+![](./images/hap4.png)
 
 
 
