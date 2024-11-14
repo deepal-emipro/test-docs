@@ -48,25 +48,25 @@ We must set up a few things in the Odoo for your website to function as native a
 ## **Mobile View Splash Screen**
 
 
-![](./images/37-5.png)
+![](./images/pwaim5.png)
 
 
 ## **Offline View**
 
 
-![](./images/pwaim4.png)
+![](./images/pwaim5.png)
 
 
 ## **Desktop View Install App Pop-Up**
 
 
-![](./images/37-7.png)
+![](./images/pwaid1.png)
 
 
 ## **Desktop View Offline**
 
 
-![](./images/37-8.png)
+![](./images/pwaid2.png)
 
 
 * PWA works only on HTTPS environments. It does not support traditional HTTP.
