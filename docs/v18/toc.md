@@ -64,4 +64,4 @@ is_index: True
 - [Out Of Stock](out-of-stock.md)
 - [Allow selected countries for order checkout](allow-selected-countries-for-order-checkout.md)
 - [Change Footer Style](change-footer-style.md)
-- [Changelog](change-footer-style.md)
+- [Changelog](change-log.md)
