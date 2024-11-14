@@ -11,19 +11,19 @@
 * After that, variants and descriptions of products will not be displayed in the Cart page and Checkout Page.
 Cart Page
 
-![](./images/hvpd2.jpg)
+![](./images/hvpd2.png)
 
 Checkout Page
 
-![](./images/hvpd3.jpg)
+![](./images/hvpd3.png)
 
 * If the option is disabled then you will be able to see description and variant details in the cart page.
 Cart Page
 
-![](./images/hvpd4.jpg)
+![](./images/hvpd4.png)
 
 Checkout Page
 
-![](./images/hvpd5.jpg)
+![](./images/hvpd5.png)
 
 

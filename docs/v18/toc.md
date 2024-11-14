@@ -56,7 +56,6 @@ is_index: True
 - [Change Button Style](change-button-style.md)
 - [Log in & Sign up Popup](log-in-and-sign-up-popup.md)
 - [Google Recaptcha in Signup](google-recaptcha-in-sign-up.md)
-- [Category Landing Page](category-landing-page.md)
 - [Theme Customize](theme-customize.md)
 - [Progressive Web App (PWA)](progressive-web-app-pwa.md)
 - [Hide Add to Cart button & Price](hide-add-to-cart-button-and-price.md)

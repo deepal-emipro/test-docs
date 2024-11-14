@@ -14,7 +14,7 @@ Open Website Editor from the website and choose Clarico Vega to activate the **O
 These choices will show up in the shop/catalog page after configuration.
 
 
-![](./images/obff.png)
+![](./images/obb2.png)
 
 
 

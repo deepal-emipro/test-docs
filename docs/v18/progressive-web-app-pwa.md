@@ -30,19 +30,19 @@ We must set up a few things in the Odoo for your website to function as native a
 ## **Add To Home**
 
 
-![](./images/pwaim1.PNG)
+![](./images/pwaim1.png)
 
 
 ## **Add To Home Pop-Up**
 
 
-![](./images/pwaim2.PNG)
+![](./images/pwaim2.png)
 
 
 ## **PWA like Native App**
 
 
-![](./images/pwaim3.PNG)
+![](./images/pwaim3.png)
 
 
 ## **Mobile View Splash Screen**
@@ -54,7 +54,7 @@ We must set up a few things in the Odoo for your website to function as native a
 ## **Offline View**
 
 
-![](./images/pwaim4.PNG)
+![](./images/pwaim4.png)
 
 
 ## **Desktop View Install App Pop-Up**
