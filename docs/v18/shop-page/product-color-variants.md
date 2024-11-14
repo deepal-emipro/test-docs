@@ -9,7 +9,7 @@ Open Website Editor from the website and select the Clarico Vega Tab to activate
 
 According to the screenshot below, you can discover the option to activate or disable the Color Variants from that configuration.
 
-![](./images/pcv11.png)
+![](./images/pcv1.png)
 
 * You may view the Color Variants in Shop page after activating this feature.
 
